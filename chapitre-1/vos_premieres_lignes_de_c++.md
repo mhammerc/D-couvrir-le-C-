@@ -41,3 +41,21 @@ flèches. En effet les flèches ramènent le texte que l'on veux afficher vers
 le cout et donc vers l'écran en quelque sorte. On appelle ceci un flux.
 
 Notez que ```endl``` permet de passer à la ligne suivante (*end line*).
+
+**Seconde règle :** le point de départ de toutes applications en C++, sauf
+exceptions, se trouve dans la fonction main.
+
+    int main()
+    {
+        ..
+    }
+    
+En effet, cette syntaxe représente une fonction. Une fonction est un bout de
+que l'on peut lancer autant de fois que l'on veux, depuis n'importe où.
+Lorsque vous lancez votre application, vous demandez en fait à votre système
+d'exploitation (Windows, Linux, Mac, ...) d'appeler la fonction ```main``` de
+votre logiciel.
+
+Nous verrons par la suite comment créer d'autre fonctions.
+
+**Troisième règle:
