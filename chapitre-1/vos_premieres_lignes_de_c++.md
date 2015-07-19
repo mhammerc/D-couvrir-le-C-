@@ -33,4 +33,11 @@ Nous en concluons donc que la syntaxe ```cout << "[UN TEXTE]" << endl;``` permet
 d'afficher du texte à l'écran.
 
 **Première règle :** à la fin de chaque instruction, vous devez mettre un point
-virgule, qui marque la fin de cette instruction.
+virgule, qui marque la fin de cette même instruction.
+
+*cout* est un terme qui signifie *Console OUT*. En d'autres mots, ce terme
+de sortir des informations depuis l'ordinateur vers l'écran, d'où le sens des
+flèches. En effet les flèches ramènent le texte que l'on veux afficher vers
+le cout et donc vers l'écran en quelque sorte. On appelle ceci un flux.
+
+Notez que ```endl``` permet de passer à la ligne suivante (*end line*).
