@@ -64,3 +64,8 @@ code C++. Sachez le tout de suite, vous ne comprendrez pas tout tout de suite.
 Si je vous dit que nous verrons tel chose plus tard ou que tel chose sert à 
 tel autre chose, admettez le. Considérez le comme acquis et n'y faites plus
 attention : nous reviendrons dessus plus tard.
+
+## Une remarque ? Une question ? Un problème ?
+
+Si jamais j'ai fait une erreur, ou si vous avez une question je vous propose
+de me contacter sur Twitter [@_MartinH_](https://twitter.com/_martinh_).
