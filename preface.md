@@ -9,6 +9,21 @@ connaissances nécessaire pour mener des projets de petites ou moyennes
 envergures. Et n'oubliez surtout pas que c'est en forgeant qu'on devient 
 forgeron !
 
+## Ce livre est en cours d'écriture
+
+Première chose très importante, ce livre est en cours d'écriture. J'ai commencé
+ce livre le 19 Juillet 2015 et je le met à jour aussi régulièrement que possible.
+
+## Pour qui est destiné ce livre ?
+
+Ce livre est écrit dans un français très simple et est à la portée de tous.
+Les seuls pré-requis pour ce livre sont de savoir utiliser un ordinateur de
+manière aisée.
+
+Que vous n'ayez absolument aucune connaissance en programmation ou que vous
+connaissez déjà le C++, ce livre saura vous satisfaire dans le sens ou il vous
+servira de cours complet ou d'aide mémoire.
+
 ## Comment se déroule le livre ?
 
 Nous allons commencer par les notions les plus simples et les plus basiques.
@@ -20,6 +35,27 @@ n'abandonnez pas trop vite la lecture de ce livre ! Si vous trouvez que ce que
 je vous montre est trop compliqué, ne vous inquiètez pas. Relisez le chapitre
 une fois ou passez à la suite et vous le comprendrez naturellement par la
 suite.
+
+## Le glossaire !
+
+Pensez-y au glossaire ! La plupart des termes techniques sont indexés dans le
+glossaire. Celui-ci vous servira d'aide mémoire afin de ne pas oublier les
+divers termes essentiels que nous aborderons ici.
+
+## Un exemple de code
+
+Si vous êtes sur téléphone ou sur tablette ou encore si vous avez un petit
+écran, l'affichage des lignes de code peut être problématique. Voici un exemple
+de code, les lignes de codes ne serons jamais plus longues que celles-ci :
+
+    std::string& longueLigne(std::string &ligne, int * ptr)
+    {
+        std::cout << ligne << *ptr << std::endl << "Merci !" << std::endl;
+        return ligne;
+    }
+
+*(Notez que ce code est totalement inventé et n'a rien à voir avec le reste du
+livre)*
 
 ## Il faut savoir admettre
 
