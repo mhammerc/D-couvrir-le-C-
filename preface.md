@@ -22,3 +22,9 @@ une fois ou passez à la suite et vous le comprendrez naturellement par la
 suite.
 
 ## Il faut savoir admettre
+
+Dès les premières minutes de lecture de ce livre nous allons travailler sur du
+code C++. Sachez le tout de suite, vous en comprendrez pas tout tout de suite.
+Si je vous dit que nous verrons tel chose plus tard ou que tel chose sert à 
+tel autre chose, admettez le. Considérez le comme acquis et n'y faites plus
+attention : nous reviendrons dessus plus tard.
