@@ -17,7 +17,7 @@ notion que vous [allez] utiliser tous les jours. Oui.
 Tout simplement !
 
 Par exemple imaginons que vous créez un jeu révolutionnaire et que votre
-personnage principal a un nombre de points qui peut *varier*. Nous allons alors
+personnage principal a un nombre de points de vie qui peut *varier*. Nous allons alors
 créer une variable pour sauvegarder ce nombre de points de vie pour ensuite
 l'afficher à l'écran.
 
