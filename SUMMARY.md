@@ -6,5 +6,5 @@
    * [Qu'est-ce que le C++ ?](chapitre-1/quest-ce_que_le_c++.md)
    * [Installons un IDE](chapitre-1/installons_un_ide.md)
    * [Vos premières lignes de C++](chapitre-1/vos_premieres_lignes_de_c++.md)
-   * Les variables
+   * [Les variables](les_variables.md)
 
