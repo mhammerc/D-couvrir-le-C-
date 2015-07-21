@@ -35,7 +35,7 @@ d'afficher du texte à l'écran.
 **Première règle :** à la fin de chaque instruction, vous devez mettre un point
 virgule, qui marque la fin de cette même instruction.
 
-*cout* est un terme qui signifie *Console OUT*. En d'autres mots, ce terme
+*cout* est un terme qui signifie *Console OUT*. En d'autres mots, ce terme permet
 de sortir des informations depuis l'ordinateur vers l'écran, d'où le sens des
 flèches. En effet les flèches ramènent le texte que l'on veux afficher vers
 le cout et donc vers l'écran en quelque sorte. On appelle ceci un flux.
@@ -50,12 +50,8 @@ exceptions, se trouve dans la fonction main.
         ..
     }
     
-En effet, cette syntaxe représente une fonction. Une fonction est un bout de
-que l'on peut lancer autant de fois que l'on veux, depuis n'importe où.
-Lorsque vous lancez votre application, vous demandez en fait à votre système
-d'exploitation (Windows, Linux, Mac, ...) d'appeler la fonction ```main``` de
-votre logiciel.
+Nous verrons plus tard ce que c'est, contentez vous pour le moment
+d'écrire votre code entre les accolades qui suivent ```ìnt main()```.
 
-Nous verrons par la suite comment créer d'autre fonctions.
-
-**Troisième règle:
+Nous verrons le reste de ce code plus tard, désormais je vous propose
+d'entamer un nouveau concept, les variables.
