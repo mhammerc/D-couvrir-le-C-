@@ -86,7 +86,7 @@ différentes.
 **Attention**, vous devez **toujours** initialiser une variable avant de
 l'utiliser. Sinon votre programme pourra réagir étrangement ou avoir des
 comportements indéfinis. Si vous le souhaitez vous pouvez lui donner une valeur
-dès sa déclaration, ce qui emboîte les deux étapes :
+dès sa déclaration, ce qui emboîte les deux premières étapes :
 
     int x = 0;
     
