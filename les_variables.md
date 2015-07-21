@@ -31,9 +31,9 @@ Tous les langages de programmations possèdent des variables. Mais chacun a ses
 spécificités.
 
 Le C++ est un langage fortement typé, c'est à dire que vous **devez** préciser
-le type de la variable que vous déclarez (enfin presque, nous verrons après).
-Pas d'inquiètude c'est très simple. Les différents types sont par exemple les
-nombres, ou des caractères.
+le type de la variable que vous déclarez (enfin presque, nous verrons dans un
+futur chapitre des subtilités). Pas d'inquiètude c'est très simple. Les 
+différents types sont par exemple les nombres, ou des caractères.
 
 Prenons un exemple avec ```int``` qui représente un nombre (*integer* qui
 signifie entier en anglais).
