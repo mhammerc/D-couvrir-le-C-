@@ -94,6 +94,9 @@ Voici les différents type de variable que nous allons voir dans ce chapitre :
 
 | Mot clé | Description | Taille en octet |
 | -- | -- | -- |
+| long | Un très grand nombre entier | 8 |
 | int | Un nombre entier | 4 |
 | short | Un petit nombre entier | 2 |
 | char | Représente un caractère ASCII ou un tout petit nombre | 1 |
+| float | représente à nombre à virgule (un nombre flottant) | 4 |
+| double | représente un nombre à virgule avec une *très* grande précision | 8 |
