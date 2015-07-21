@@ -101,3 +101,20 @@ Voici les différents type de variable que nous allons voir dans ce chapitre :
 | float | Représente à nombre à virgule (un nombre flottant) | 4 |
 | double | Représente un nombre à virgule avec une *très* grande précision | 8 |
 | bool | Représente vrai (true) ou faux (false) | 4 |
+
+Ce ne sont que des types primitifs c'est à dire qu'ils sont inclus de base dans
+le C++ sans aucune manipulation supplémentaire. Voici des exemples d'utilisation
+de ces types :
+
+    float flottant = 8.9;
+    char lettre = 'c';
+    bool condition = true;
+    
+    std::cout << flottant << endl << lettre << endl << condition << endl;
+
+Ce qui affichera :
+
+![](Screenshot_2015-07-21_18-21-35.png)
+
+Notez que le type ```bool``` affiche 1 s'il vaut ```true``` sinon il affiche 0. Nous
+verrons par la suite comment utiliser un boolean pour établir des conditions.
