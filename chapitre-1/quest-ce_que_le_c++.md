@@ -1,5 +1,31 @@
 ## Qu'est-ce que le C++ ?
 
+### Qu'est-ce que l'on peut faire avec le C++ ?
+
+Eh bien... Plus ou moins tout ! Théoriquement, avec le C++ on peut créer un OS,
+on peut faire des jeux vidéos, des applications desktop et mobiles. Si vous
+le souhaitez vous pouvez même faire des sites web ou une IA qui vous sert le
+café !
+
+Vous savez que la plupart des gros jeux vidéos AAA sont codés en C++ ?
+
+Donc oui le C++ est un langage puissant qui offre pleins de possibilités à
+condition de le maitriser.
+
+### L'histoire du C++ !
+
+Un jour, un homme au doux nom de *Bjarne Stroustrup* a trouvé qu'il manquait des
+choses au C (un autre langage de programmation). Il a donc dans un premier temps
+créé une modification du C qu'il a nommé *C with classes* car oui, l'une des
+grosses nouveautés du C++ par rapport au C ce sont les classes que nous verrons
+plus tard. Il a ensuite nommé le C with classes avec un nom plus court : **C++**
+. Ce nom représente bien le C, c'est une évolution du C d'ou l'appellation
+C plus plus. Parfois on le nomme aussi cpp. Et dans la foulé, en 1985 il montra
+au monde le C++ en "publiant" le langage ainsi qu'un premier livre expliquant
+comment l'utiliser.
+
+### La définition du C++ ?
+
 Le C++ a le droit à une définition très simple :
 
 > C++ est un langage de programmation compilé, permettant la programmation sous 
