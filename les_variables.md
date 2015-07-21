@@ -90,7 +90,8 @@ dès sa déclaration, ce qui emboîte les deux premières étapes :
 
     int x = 0;
     
-Voici les différents type de variable que nous allons voir dans ce chapitre :
+Voici les différents types de variable que vous pouvez utiliser (liste non
+exhaustive) :
 
 | Mot clé | Description | Taille en octet |
 | -- | -- | -- |
