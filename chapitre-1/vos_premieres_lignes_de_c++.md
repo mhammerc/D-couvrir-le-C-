@@ -54,4 +54,5 @@ Nous verrons plus tard ce que c'est, contentez vous pour le moment
 d'écrire votre code entre les accolades qui suivent ```ìnt main()```.
 
 Nous verrons le reste de ce code plus tard, désormais je vous propose
-d'entamer un nouveau concept, les variables.
+d'entamer un nouveau concept, les variables, qui vont rapidement nous devenir
+indispensable.
