@@ -131,3 +131,21 @@ nous permettent de calculer un peu tout et n'importe quoi, les voilà :
 | Division | / | ```int x = 10 / 2; // 5``` |
 | Reste de la division (modulo) | % | ```int x = 10 % 3; // 1``` |
 
+Leur utilisation est très simple comme vous le voyez. Dans les exemples fourni,
+on calcule l'opération avec des valeurs fixes mais vous pouvez tout aussi bien
+mettre des variables du même type à la place des nombres.
+
+Chacun de ces opérateur a une variante. Au lieu d'écrire 30 lignes pour
+l'expliquer, je vais vous le démontrer avec un exemple :
+
+    int x = 5;
+    x += 8; // Revient à écrire x = x + 8;
+    x -= 8; // Revient à écrire x = x - 8;
+    x *= 8; // Revient à écrire x = x * 8;
+    //etc...
+    
+Se conclue ainsi le chapitre sur les variables. Gardez bien en tête que ce n'était
+qu'une très brève introduction et nous verrons les variables plus en détail
+plus tard. Pour l'instant je vous propose d'étudier un nouveau type, les 
+```string``` !
+
