@@ -10,7 +10,7 @@ café !
 Vous savez que la plupart des gros jeux vidéos AAA sont codés en C++ ?
 
 Donc oui le C++ est un langage puissant qui offre pleins de possibilités à
-condition de le maitriser.
+condition de le maîtriser.
 
 D'ailleurs nous allons très vite créer des applications plus ou moins complexes
 avec des fenêtres, des boutons ou tout ce que vous voulez !
