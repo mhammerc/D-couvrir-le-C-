@@ -90,3 +90,10 @@ dès sa déclaration, ce qui emboîte les deux étapes :
 
     int x = 0;
     
+Voici les différents type de variable que nous allons voir dans ce chapitre :
+
+| Mot clé | Description | Taille en octet |
+| -- | -- | -- |
+| int | Un nombre entier | 4 |
+| short | Un petit nombre entier | 2 |
+| char | Représente un caractère ASCII ou un tout petit nombre | 1 |
