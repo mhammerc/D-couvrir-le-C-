@@ -150,3 +150,17 @@ qu'une très brève introduction et nous verrons les variables plus en détail
 plus tard. Pour l'instant je vous propose d'étudier un nouveau type, les 
 ```string``` !
 
+### Le petit bonus
+
+Et oui, même en programmation on a des surprises ! Après la syntaxe écourté, je
+vous propose une syntaxe encore plus courte. Quand vous voulez incrémenter un
+nombre de seulement 1, vous devez écrire ```x = x + 1;``` ou encore mieux
+```x += 1``` mais il existe mieux ! Oui, vous pouvez écrire ```++x;``` qui
+aura exactement le même effet ! Ainsi voyez l'exemple suivant :
+
+    int x = 9;
+    ++x;
+    
+    cout << x << endl; // 10
+    
+Vous pourrez observer que ```x``` vaut bien 10.
