@@ -22,7 +22,7 @@ choses au C (un autre langage de programmation). Il a donc dans un premier temps
 créé une modification du C qu'il a nommé *C with classes* car oui, l'une des
 grosses nouveautés du C++ par rapport au C ce sont les classes que nous verrons
 plus tard. Il a ensuite nommé le C with classes avec un nom plus court : **C++**
-. Ce nom représente bien le C, c'est une évolution du C d'où l'appellation
+. Ce nom représente bien le C++, c'est une évolution du C d'où l'appellation
 C plus plus. Parfois on le nomme aussi cpp. Et dans la foulé, en 1985 il montra
 au monde le C++ en "publiant" le langage ainsi qu'un premier livre expliquant
 comment l'utiliser.
