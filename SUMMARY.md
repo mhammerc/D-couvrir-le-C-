@@ -7,5 +7,5 @@
    * [Installons un IDE](chapitre-1/installons_un_ide.md)
    * [Vos premières lignes de C++](chapitre-1/vos_premieres_lignes_de_c++.md)
    * [Les variables](les_variables.md)
-   * Les chaînes de caractères string
+   * [Les chaînes de caractères string](chapitre-1/les_chaines_de_caracteres_string.md)
 
