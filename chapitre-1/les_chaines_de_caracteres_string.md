@@ -24,6 +24,69 @@ fichier texte vous insérez la syntaxe suivante :
     
 Par exemple, pour inclure les string dans notre fichier C++, nous écrirons :
 ```#include <string>``` mais pour inclure un fichier que nous créerons nous
-même nous écrirerions plutôt ```#include "monfichier.cpp"```. Notez la
+même, nous écrirons plutôt ```#include "monfichier.cpp"```. Notez la
 différence ! Mais nous verrons comment fonctionne l'utilisation de plusieurs
 fichiers plus tard.
+
+### Comment utiliser les ```string``` ?
+
+Rien de plus simple, prenez ce code et mettez le dans votre IDE.
+
+    #include <iostream>
+    #include <string>
+
+    using namespace std;
+
+    int main()
+    {
+        string name = "Chuck Norris";
+
+        cout << name << endl;
+    }
+    
+Puis lancez l'application et que voyons nous ?
+
+![](Screenshot_2015-07-22_17-30-31.png)
+
+Et oui ! Chuck Norris s'affiche à l'écran, bienvenue dans la magie et la
+simplicité du C++ :-D !
+
+Mais, fort heureusement, la puissance des ```string``` ne s'arrête pas là. Nous
+pouvons par exemple les concaténer, simplement en utilisant l'opérateur ```+```
+entre deux ```string```. Regardez plutôt :
+
+![](Screenshot_2015-07-22_17-35-14.png)
+
+Plutôt simple et efficace.
+
+Je vais maintenant vous présenter une nouvelle notion. Vous devez considérer que
+les ```string``` sont un peu comme des grosses variables qui offrent pleins de
+possibilités. Par exemple, les ```string``` possèdent comme des informations,
+des propriétés qui peuvent être accéder via un ```.``` et avec des ```()``` à la
+fin !
+
+Nous verrons le pourquoi du comment, contentez vous d'accepter que c'est une
+*méthode d'accès* à des informations ou à des actions. Par exemple pour
+connaitre la longueur de votre chaine de caractère, vous devez simplement écrire :
+
+    string name = "Martin";
+    cout << name.length() << endl;
+
+Ici la notation est nouvelle. ```length``` veux dire en anglais *longueur*. On
+accède donc à la longueur de la chaine concernée via le ```.``` et on termine
+la propriété voulu par des ```()``` (vous comprendrez pleinement cette notation
+bientôt, ne vous inquiètez pas). Ainsi, écrire ```name.length()``` vous retourne
+la longueur de la chaine c'est à dire 6 dans notre cas.
+
+Il existe d'autre méthodes comme ```erase()``` qui permet de vider complètement
+la chaine et pleins d'autres que nous verrons plus tard.
+
+**Attention** : petite subtilité très importante ! Un ```char``` (un caractère)
+s'écrit avec des apostrophes alors qu'un ```string``` (une chaine) s'écrit avec
+des guillements !
+
+    char letter = 'a';
+    string word = "Hi!";
+    
+La subtilité est très importante, sinon votre programme risque d'avoir des
+comportements indéfinis.
