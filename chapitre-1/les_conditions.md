@@ -7,6 +7,8 @@ Jusque ici notre programme était cantonné à un déroulement fixe, et prévisi
 Si seulement nous pourrions rajouter comme des modules qui s'exécutent seulement
 et seulement si une condition x est vérifiée...
 
+### La structure générale
+
 Mais rassurez vous c'est possible en C++ ! Et c'est même enfantin. Les conditions
 (ou *structure de contrôle* techniquement parlant) sont un composant que l'on
 retrouve dans absolument tous les langages de programmation à ma connaissance.
@@ -98,3 +100,8 @@ Ainsi en pratique voici plusieurs exemples :
 
 *Note : je n'utilise pas d'accents car la console Windows a, de base, un peu
 de mal à les afficher.*
+
+### Les ```bool```
+
+On en avait parlé il y a quelque chapitres, revenons dessus. C'est un type assez
+particulier dans le sens dans
