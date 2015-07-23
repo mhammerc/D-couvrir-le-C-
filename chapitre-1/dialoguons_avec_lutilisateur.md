@@ -61,7 +61,7 @@ Profitons en pour demander l'âge de l'utilisateur. Regardez plutôt :
     
 *Nous ne verrons pas les cas où l'utilisateur n'entre pas les valeurs voulu.*
 
-Maintenant demandons lui son nom et son prénom. Rien de plus simple à première,
+Maintenant demandons lui son nom et son prénom. Rien de plus simple à première vu,
 rajoutons des éléments à notre code :
 
     string name;
