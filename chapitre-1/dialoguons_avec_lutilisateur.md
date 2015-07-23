@@ -139,4 +139,4 @@ Et hop ! Tout fonctionne correctement.
 
 Voilà. Ce chapitre reste vraiment basique car d'autres notions sont nécessaires
 pour aller plus loin. Mais ne vous inquiétez pas, nous verrons tous au
-fur et à mesures. Entamons maintenant les **conditions** !
+fur et à mesure. Entamons maintenant les **conditions** !
