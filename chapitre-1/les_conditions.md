@@ -155,6 +155,6 @@ Ainsi par exemple on peut les utiliser de la manière suivante :
     if(!b) // Valide
         cout << "Condition 3 valide" << endl;
     
-    Voilà vous savez à peu près tout pour les conditions, ne vous inquiétez pas
-    s'il vous reste des zones d'ombre nous les éclaireront dans les
-    prochains chapitres au fur et à mesure de la pratique.
+Voilà vous savez à peu près tout pour les conditions, ne vous inquiétez pas
+s'il vous reste des zones d'ombre nous les éclaireront dans les
+prochains chapitres au fur et à mesure de la pratique.
