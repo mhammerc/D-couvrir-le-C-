@@ -104,4 +104,4 @@ de mal à les afficher.*
 ### Les ```bool```
 
 On en avait parlé il y a quelque chapitres, revenons dessus. C'est un type assez
-particulier dans le sens dans
+particulier dans le sens où
