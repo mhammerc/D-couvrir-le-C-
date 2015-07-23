@@ -12,6 +12,9 @@
    * [Les conditions](chapitre-1/les_conditions.md)
    * Les boucles
    * Les fonctions
+   * Les tableaux
+     * Les tableaux statique
+     * Les tableaux dynamique
    * Encore plus sur les variables
        * Les variables 2
        * Les références
