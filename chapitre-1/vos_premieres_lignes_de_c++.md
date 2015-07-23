@@ -35,6 +35,14 @@ d'afficher du texte à l'écran.
 **Première règle :** à la fin de chaque instruction, vous devez mettre un point
 virgule, qui marque la fin de cette même instruction.
 
+**Seconde règle : Ne JAMAIS oublier la première règle.** Oublier un ```;``` est
+très dangereux. Déjà il empêchera votre logiciel de fonctionner, puis vous
+chercherez bêtement pendant 3 heures où est le problème jusqu'à ce que vous vous
+rendez compte que le problème est simplement un ```;``` qui manque. Croyez-moi,
+ceci est arrivé à tout le monde et vous arrivera ! Les effets secondaire à cet
+oubli sont très dangereux comme *la dépression*, *l'abandon de la lecture de ce
+livre* et bien d'autres... Soyez avertis !
+
 *cout* est un terme qui signifie *Console OUT*. En d'autres mots, ce terme permet
 de sortir des informations depuis l'ordinateur vers l'écran, d'où le sens des
 flèches. En effet les flèches ramènent le texte que l'on veux afficher vers
