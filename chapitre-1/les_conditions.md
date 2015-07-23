@@ -95,8 +95,6 @@ Ainsi en pratique voici plusieurs exemples :
     
     // Le else se lancera que si les précédentes conditions n'ont pas été
     // validées.
-    
-    
-        
+
 *Note : je n'utilise pas d'accents car la console Windows a, de base, un peu
 de mal à les afficher.*
