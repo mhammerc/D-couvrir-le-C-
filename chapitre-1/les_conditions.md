@@ -139,3 +139,19 @@ deux ```bool``` en un seul ! Voici un tableau les présentants :
 | && | Opérateur logique ET | ```true && true // True``` et ```true && false // False``` |
 | &#124;&#124; | Opérateur logique OU | false  &#124;&#124; true // True et false  &#124;&#124; false // False | 
 | ! | Opérateur logique NON | ```!true // False``` et ```!false // True``` |
+
+Ainsi par exemple on peut les utiliser de la manière suivante :
+
+    bool a = true;
+    bool b = false;
+    bool c = true;
+    
+    if(a && (b || c)) // Valide
+        cout << "Condition 1 valide" << endl;
+        
+    if(!a) // Invalide
+        cout << "Condition 2 valide" << endl;
+        
+    if(!b) // Valide
+        cout << "Condition 3 valide" << endl;
+    
