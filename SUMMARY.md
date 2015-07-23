@@ -16,4 +16,5 @@
        * Les variables 2
        * Les références
        * Les pointeurs
+       * Les pointeurs intelligents
 
