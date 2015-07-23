@@ -14,7 +14,7 @@ dans la console.
 
 ### La première méthode
 
-Nous utilisons le fameux ```cout``` (qui pour rappelle se prononce *c-out* :
+Nous avons utilisé jusque ici le fameux ```cout``` (qui pour rappelle se prononce *c-out* :
 Console OUT). Automatiquement par analogie nous allons découvrir le ```cin```
 (*c-in*, Console IN). Voici un exemple d'utilisation tout bête :
 
