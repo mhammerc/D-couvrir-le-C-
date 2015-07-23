@@ -50,7 +50,7 @@ peut être une comparaison entre deux valeurs, selon le tableau suivant :
 | ```!=``` | ```if(3 != 4)``` | Différent de |
 | ```<``` | ```if(3 < 4)``` | Inférieur à |
 | ```<=``` | ```if(3 <= 4)``` | Inférieur ou égal à |
-| ```>``` | ```if( 3 > 4)``` | Supérieur à |
+| ```>``` | ```if(3 > 4)``` | Supérieur à |
 | ``` >=``` | ```if(3 >= 4)``` | Supérieur ou égal à |
 
 Ainsi en pratique voici plusieurs exemples :
