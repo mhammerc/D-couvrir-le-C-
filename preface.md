@@ -32,9 +32,18 @@ C++.
 
 Le nombre de notions que vous allez acquérir est vraiment énorme. Mais
 n'abandonnez pas trop vite la lecture de ce livre ! Si vous trouvez que ce que
-je vous montre est trop compliqué, ne vous inquiètez pas. Relisez le chapitre
+je vous montre est trop compliqué, ne vous inquiétez pas. Relisez le chapitre
 une fois ou passez à la suite et vous le comprendrez naturellement par la
 suite.
+
+## Ce livre est très concis
+
+J'ai volontairement écris ce livre de manière très concise afin de ne pas vous
+ennuyer. Seul "bémol" à ce choix : vous devez donner plus du votre encore. Vous
+devez vraiment faire partie du livre et pas seulement être un spectateur. Les
+exemples que je donne ne sont pas là que pour accompagner de manière secondaire
+les explications, les exemples font partie intégrante des explications et sont
+même **plus important** que les explications.
 
 ## Le glossaire !
 
@@ -68,4 +77,4 @@ attention : nous reviendrons dessus plus tard.
 ## Une remarque ? Une question ? Un problème ?
 
 Si jamais j'ai fait une erreur, ou si vous avez une question je vous propose
-de me contacter sur Twitter [@_MartinH_](https://twitter.com/_martinh_).
+de me contacter sur Twitter [@\_MartinH\_](https://twitter.com/_martinh_).
