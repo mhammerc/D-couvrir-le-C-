@@ -102,3 +102,8 @@ comme il garde un mot un réserve (votre nom que vous avez mis après votre
 prénom) il attend que vous lui demandiez de remplir un ```string``` pour vider
 son *buffer* hors ce n'est pas ce que nous voulons.  Nous voulons récupérer
 plusieurs mots et donc une ligne en quelque sorte.
+
+### La seconde méthode
+
+Fort heureusement, le C++ nous propose une fonction juste pour ça ! Je vous
+présente ```getline```
