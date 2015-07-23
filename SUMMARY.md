@@ -10,4 +10,5 @@
    * [Les chaînes de caractères string](chapitre-1/les_chaines_de_caracteres_string.md)
    * [Dialoguons avec l'utilisateur !](chapitre-1/dialoguons_avec_lutilisateur.md)
    * [Les conditions](chapitre-1/les_conditions.md)
+   * Les boucles
 
