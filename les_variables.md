@@ -101,7 +101,7 @@ exhaustive) :
 | char | Représente un caractère ASCII ou un tout petit nombre | 1 |
 | float | Représente à nombre à virgule (un nombre flottant) | 4 |
 | double | Représente un nombre à virgule avec une *très* grande précision | 8 |
-| bool | Représente vrai (true) ou faux (false) | 4 |
+| bool | Représente vrai (true) ou faux (false) | 1 |
 
 Ce ne sont que des types primitifs c'est à dire qu'ils sont inclus de base dans
 le C++ sans aucune manipulation supplémentaire. Notez que chacun de ces types
