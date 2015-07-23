@@ -106,4 +106,33 @@ plusieurs mots et donc une ligne en quelque sorte.
 ### La seconde méthode
 
 Fort heureusement, le C++ nous propose une fonction juste pour ça ! Je vous
-présente ```getline```
+présente ```getline```. Comme toujours, l'utilisation de cet outil reste
+assez simple. En effet la syntaxe est ```getline(cin, VARIABLE);```. Ainsi,
+voici notre exemple précédent corrigé :
+
+    string name;
+    int revenu;
+    int age;
+
+    cout << "Bonjour ! Quel est votre nom ?" << endl;
+    cout << "Je me nomme ";
+    getline(cin, name);
+
+
+    cout << "Bonjour ! Quel est votre age ?" << endl;
+    cout << "Mon age est de ";
+    cin >> age;
+
+
+    cout << "Quel est votre revenu mensuel ?" << endl;
+    cout << "Mon revenu mensuel est ";
+    cin >> revenu;
+
+    cout << endl << "Vous vous nommez " << name
+         << ", vous avez " << age
+         << " ans et " << revenu << " euros de revenu mensuel."
+         << endl;
+         
+Et hop ! Tout fonctionne correctement.
+
+![](Screenshot_2015-07-23_14-43-55.png)
