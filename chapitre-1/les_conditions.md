@@ -1,7 +1,7 @@
 ## Les conditions
 
 Allez on garde du courage, on ne désespère pas ! Ce chapitre et le chapitre
-suivant sera très simple !
+suivant seront très simple !
 
 Jusque ici notre programme était cantonné à un déroulement fixe, et prévisible.
 Si seulement nous pourrions rajouter comme des modules qui s'exécutent seulement
