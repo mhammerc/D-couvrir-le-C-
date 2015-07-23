@@ -138,5 +138,5 @@ Et hop ! Tout fonctionne correctement.
 ![](Screenshot_2015-07-23_14-43-55.png)
 
 Voilà. Ce chapitre reste vraiment basique car d'autres notions sont nécessaires
-pour aller plus loin. Mais ne vous inquiètez pas, nous verrons tous au
+pour aller plus loin. Mais ne vous inquiétez pas, nous verrons tous au
 fur et à mesures. Entamons maintenant les **conditions** !
