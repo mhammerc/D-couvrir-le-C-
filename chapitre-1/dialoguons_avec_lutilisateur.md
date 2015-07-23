@@ -59,6 +59,6 @@ Profitons en pour demander l'âge de l'utilisateur. Regardez plutôt :
 
     cout << endl << "Vous avez " << age << " ans et " << revenu << " euros de revenu mensuel."<< endl;
     
-Si vous rentrez correctement les valeurs, tout se passe bien (nous ne traitons
-pas du cas si vous ne rentrez pas des nombres ici). Mais que ce passe t'il si
-vous rentrez par exemple ```25 2500``` directement pour l'âge ?
+*Nous ne verrons pas les cas où l'utilisateur n'entre pas les valeurs voulu ici.*
+
+
