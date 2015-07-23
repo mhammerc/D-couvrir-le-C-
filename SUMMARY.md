@@ -12,4 +12,5 @@
    * [Les conditions](chapitre-1/les_conditions.md)
    * Les boucles
    * Les fonctions
+   * Encore plus sur les variables
 
