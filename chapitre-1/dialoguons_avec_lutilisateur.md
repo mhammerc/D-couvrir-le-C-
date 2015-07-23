@@ -133,7 +133,9 @@ voici notre exemple précédent corrigé :
          << " ans et " << revenu << " euros de revenu mensuel."
          << endl;
          
-Et hop ! Tout fonctionne correctement.
+Et hop ! Tout fonctionne correctement. Comme vous le voyez, ```getline``` met
+automatiquement ce que l'utilisateur a entré dans la variable spécifié comme 
+```cin```.
 
 ![](Screenshot_2015-07-23_14-43-55.png)
 
