@@ -53,4 +53,50 @@ peut être une comparaison entre deux valeurs, selon le tableau suivant :
 | ```>``` | ```if( 3 > 4)``` | Supérieur à |
 | ``` >=``` | ```if(3 >= 4)``` | Supérieur ou égal à |
 
+Ainsi en pratique voici plusieurs exemples :
+
+    if(3 == 3)
+    {
+        cout << "3 est bien egal a 3" << endl;
+    }
     
+    // On peut aussi utiliser des variables
+    
+    int a = 3;
+    int b = 4;
+    
+    if(a == b) // Ne s'exécutera pas
+    {
+        cout << "a et b sont identiques" << endl;
+    }
+    else if(a != b) // S'exécutera
+    {
+        cout << "a est different de b" << endl;
+    }
+    
+    // Le else if permet de créer un nouveau bloc si le bloc précédent
+    // est invalide
+    
+    if(a < b) // S'exécutera
+        cout << "a est plus petit que b" << endl;
+    else if(a > b) // Ne s'exécutera pas
+        cout << "b est plus petit que a" << endl;
+    
+    // Une forme raccourcie est possible, sans les accolades mais uniquement
+    // pour insérer une seule instruction.
+    
+    if(a == b) // Ne s'exécutera pas
+        cout << "a et b sont identiques" << endl;
+    else
+    {
+        cout << "a et b ne sont pas identiques" << endl;
+        cout << "Ceci est un else" << endl;
+    }
+    
+    // Le else se lancera que si les précédentes conditions n'ont pas été
+    // validées.
+    
+    
+        
+*Note : je n'utilise pas d'accents car la console Windows a, de base, un peu
+de mal à les afficher.*
