@@ -38,6 +38,15 @@ succès.
 
 Concrètement, la condition est une *expression* qui peut être pleins de choses
 (nous allons voir juste après). Si elle est évalué comme étant **true**, le code
-entre accolades sera exécuté sinon non.
+entre accolades sera exécuté sinon l'expression sera évalué comme étant **false**
+et le code entre accolades ne sera pas exécuté.
+
+Une expression pour une condition peut être différente choses. Premièrement elle
+peut être une comparaison entre deux valeurs, selon le tableau suivant :
+
+| Signe | Exemple | Correspondance |
+| -- | -- | -- |
+| ```==``` | ```if(3 == 4)``` | Egal à |
+| ```!=``` | ```if(3 != 4)``` | Different de ||
 
     
