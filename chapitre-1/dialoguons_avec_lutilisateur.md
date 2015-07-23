@@ -59,6 +59,46 @@ Profitons en pour demander l'âge de l'utilisateur. Regardez plutôt :
 
     cout << endl << "Vous avez " << age << " ans et " << revenu << " euros de revenu mensuel."<< endl;
     
-*Nous ne verrons pas les cas où l'utilisateur n'entre pas les valeurs voulu ici.*
+*Nous ne verrons pas les cas où l'utilisateur n'entre pas les valeurs voulu.*
+
+Maintenant demandons lui son nom et son prénom. Rien de plus simple à première,
+rajoutons des éléments à notre code :
+
+    string name;
+    int revenu;
+    int age;
+
+    cout << "Bonjour ! Quel est votre nom ?" << endl;
+    cout << "Je me nomme ";
+    cin >> name;
+
+    cout << "Bonjour ! Quel est votre age ?" << endl;
+    cout << "Mon age est de ";
+    cin >> age;
 
 
+    cout << "Quel est votre revenu mensuel ?" << endl;
+    cout << "Mon revenu mensuel est ";
+    cin >> revenu;
+
+    cout << endl << "Vous vous nommez " << name
+         << ", vous avez " << age
+         << " ans et " << revenu << " euros de revenu mensuel."
+         << endl;
+
+Lancez le programme et entrez par exemple juste votre prénom. Tout fonctionne
+parfaitement !
+
+![](Screenshot_2015-07-23_12-38-59.png)
+
+Mais que se passe t'il si vous insérez votre prénom *et* votre nom ?
+
+![](Screenshot_2015-07-23_12-41-06.png)
+
+Le logiciel part en fanfare ! En effet il semble ne pas prendre en compte le
+second mot que vous avez entrer et ignore complètement les autres ```cin```. La
+raison à cela est simple : ```cin``` se limite à un mot par un mot. Et du coup
+comme il garde un mot un réserve (votre nom que vous avez mis après votre
+prénom) il attend que vous lui demandiez de remplir un ```string``` pour vider
+son *buffer* hors ce n'est pas ce que nous voulons.  Nous voulons récupérer
+plusieurs mots et donc une ligne en quelque sorte.
