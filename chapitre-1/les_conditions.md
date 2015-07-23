@@ -89,7 +89,7 @@ Ainsi en pratique voici plusieurs exemples :
     
     if(a == b) // Ne s'exécutera pas
         cout << "a et b sont identiques" << endl;
-    else
+    else // S'exécutera
     {
         cout << "a et b ne sont pas identiques" << endl;
         cout << "Ceci est un else" << endl;
