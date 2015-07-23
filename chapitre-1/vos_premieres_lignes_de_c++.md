@@ -50,7 +50,7 @@ le cout et donc vers l'écran en quelque sorte. On appelle ceci un flux.
 
 Notez que ```endl``` permet de passer à la ligne suivante (*end line*).
 
-**Seconde règle :** le point de départ de toutes applications en C++, sauf
+**Troisième règle :** le point de départ de toutes applications en C++, sauf
 exceptions, se trouve dans la fonction main.
 
     int main()
