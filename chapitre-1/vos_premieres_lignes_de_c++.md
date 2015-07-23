@@ -41,7 +41,10 @@ chercherez bêtement pendant 3 heures où est le problème jusqu'à ce que vous 
 rendez compte que le problème est simplement un ```;``` qui manque. Croyez-moi,
 ceci est arrivé à tout le monde et vous arrivera ! Les effets secondaire à cet
 oubli sont très dangereux comme *la dépression*, *l'abandon de la lecture de ce
-livre* et bien d'autres... Soyez avertis !
+livre* et bien d'autres... Soyez avertis ! Considérez cela comme la sélection
+naturelle, celui qui oubli le ```;``` n'arrivera pas à coder en C++ et sera 
+naturellement éliminé. Alors prenez votre courage à deux main et n'oubliez jamais
+le ```;``` !
 
 *cout* est un terme qui signifie *Console OUT*. En d'autres mots, ce terme permet
 de sortir des informations depuis l'ordinateur vers l'écran, d'où le sens des
