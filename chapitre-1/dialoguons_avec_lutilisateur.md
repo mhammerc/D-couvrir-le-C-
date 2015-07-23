@@ -41,4 +41,24 @@ Sauter une ligne ne délimitera jamais une instruction !
 
 Ensuite, on peux voir le fameux ```cin```. Rien de plus simple vous le voyez,
 il suffit d'écrire ```cin``` avec les chevrons dans le sens opposé de
-```cout``` (car le flux va dans l'autre sens).
+```cout``` (car le flux va dans l'autre sens). Essayez ce programme chez vous,
+rentrez un nombre lorsqu'il vous sera demandé et voyez la magie opérer !
+Profitons en pour demander l'âge de l'utilisateur. Regardez plutôt :
+
+    int revenu;
+    int age;
+    
+    cout << "Bonjour ! Quel est votre age ?" << endl;
+    cout << "Mon age est de ";
+    cin >> age;
+
+
+    cout << "Quel est votre revenu mensuel ?" << endl;
+    cout << "Mon revenu mensuel est ";
+    cin >> revenu;
+
+    cout << endl << "Vous avez " << age << " ans et " << revenu << " euros de revenu mensuel."<< endl;
+    
+Si vous rentrez correctement les valeurs, tout se passe bien (nous ne traitons
+pas du cas si vous ne rentrez pas des nombres ici). Mais que ce passe t'il si
+vous rentrez par exemple ```25 2500``` directement pour l'âge ?
