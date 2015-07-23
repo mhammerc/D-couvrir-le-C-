@@ -11,3 +11,7 @@ Une instruction en C++ ordonne d'effectuer une action. Par exemple 'int x;' est 
 ## mémoire vive
 
 Plus communément appelé RAM, cette mémoire est volatile et a une vitesse d'accès extrêmement rapide.
+
+## buffer
+
+Sorte de mémoire temporaire qui attend d'être lu. Une fois lu, l'information disparait. Par exemple les entrées utilisateurs.
