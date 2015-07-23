@@ -135,7 +135,7 @@ voici notre exemple précédent corrigé :
          
 Et hop ! Tout fonctionne correctement. Comme vous le voyez, ```getline``` met
 automatiquement ce que l'utilisateur a entré dans la variable spécifié comme 
-```cin```.
+```cin``` .
 
 ![](Screenshot_2015-07-23_14-43-55.png)
 
