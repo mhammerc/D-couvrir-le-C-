@@ -104,4 +104,37 @@ de mal à les afficher.*
 ### Les ```bool```
 
 On en avait parlé il y a quelque chapitres, revenons dessus. C'est un type assez
-particulier dans le sens où
+particulier dans le sens où il ne peut contenir que deux valeurs : ```true``` et
+```false```. Si vous mettez un ```bool``` qui vaut ```true``` dans une condition,
+celle-ci sera exécuté, sinon non. Un ```bool``` peut être utilisé de multiples
+manières, voyez ci-contre :
+
+    bool a = true;
+    bool b = false;
+    bool c = 0; // False
+    bool d = 1; // True
+    bool e = 80; // True
+    bool f = -80; // True
+    bool g = a != b; // True
+    
+Et oui, regarder bien le dernier exemple ! En réalité, les opérateur de
+comparaisons que nous avons eu plus haut retourne un booléen et vous pouvez donc
+stocker le résultat dans une variable si l'envie vous prend. Ainsi vous pouvez
+directement passer une variable ```bool``` à une condition si cela vous arrange.
+Et devinez quoi ! Automatiquement, puisque un nombre non nul se "transforme" en
+```true``` et un nombre nul en ```false```, vous pouvez directement passer un
+```int``` ou un ```long``` ou ce genre de variables dans une condition !
+
+Pratique non :-D ?
+
+### Les petits bonus
+
+Car j'aime vous offrir des cadeaux et que je pense à vous, je vais vous offrir
+une astuce. En effet, vous pouvez mettre plusieurs expressions dans une
+condition avec les opérateurs logiques qui concatènent (un drôle de moi oui oui)
+deux ```bool``` en un seul ! Voici un tableau les présentants :
+
+| Mot clé | Explication | Exemple |
+| -- | -- | -- |
+| && | Opérateur logique ET | ```true && true // True``` et ```true && false // False``` |
+| ```||``` | Opérateur logique OU | ```false || true // True``` et ```false || false // False``` | 
