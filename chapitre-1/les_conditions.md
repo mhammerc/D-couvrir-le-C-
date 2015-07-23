@@ -137,4 +137,4 @@ deux ```bool``` en un seul ! Voici un tableau les présentants :
 | Mot clé | Explication | Exemple |
 | -- | -- | -- |
 | && | Opérateur logique ET | ```true && true // True``` et ```true && false // False``` |
-| ```||``` | Opérateur logique OU | ```false || true // True``` et ```false || false // False``` | 
+| &#124;&#124; | Opérateur logique OU | ```false || true // True``` et ```false || false // False``` | 
