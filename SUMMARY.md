@@ -10,11 +10,11 @@
    * [Les chaînes de caractères string](chapitre-1/les_chaines_de_caracteres_string.md)
    * [Dialoguons avec l'utilisateur !](chapitre-1/dialoguons_avec_lutilisateur.md)
    * [Les conditions](chapitre-1/les_conditions.md)
-   * Les boucles
+   * [Les boucles](chapitre-1/les_boucles.md)
    * Les fonctions
    * Les tableaux
-     * Les tableaux statique
-     * Les tableaux dynamique
+       * Les tableaux statique
+       * Les tableaux dynamique
    * Encore plus sur les variables
        * Les variables 2
        * Les références
