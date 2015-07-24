@@ -78,4 +78,28 @@ Alors que ici, *Bonjour!* s'affichera une seule fois.
 
 Vous le voyez j'ai aussi enlevé les accolades ici, si le code tient sur une seule
 ligne vous pouvez les enlever. Mais vous n'êtes pas obligé, tout est question de
-préférences et d'habitudes.
+
+
+### La boucle ```for```
+
+Voyons directement un exemple :
+
+    for(int i = 0; i < 30; ++i)
+    {
+        cout << "Bonjour!" << endl;
+    }
+
+Comme vous le voyez, ce code dit *Bonjour!* un total de 30 fois. La boucle
+```for``` est particulièrement adapté pour faire un compteur par exemple.
+
+Cette boucle fonctionne en trois étapes :
+
+* L'initialisation ```int i = 0;``` : on déclare le compteur, cette étape est 
+effectué une seule fois.
+* La condition ```i < 30;``` : si c'est condition est fausse, la boucle s'arrête.
+* L'action ```++i``` : on incrémente notre compteur. Mais on n'est pas limité à
+une simple incrémentation on peut faire ```i += 2``` par exemple. En fait, vous
+pouvez mettre n'importe quel instruction ici, mais juste une seule. La plupart du
+temps on va incrémenter un compteur. **Surtout ne mettez jamais de ```;``` pour
+cette troisième étape!**
+
