@@ -45,3 +45,37 @@ vous serez dans une boucle infinie qui ne cessera jamais ! Elle tournera sans
 jamais s'interrompre. Votre expression, au bout d'un moment, selon la logique
 de votre application doit évaluer à ```false``` au bout d'un moment afin
 de sortir de la boucle.
+
+### La boucle ```do...while```
+
+La boucle ```do...while``` est une variante à la boucle ```while```. Observez
+ce code :
+
+    string message;
+
+    do
+    {
+        cout << "Vous devez ecrire 'je valide'." << endl;
+        getline(cin, message);
+    } while(message != "je valide");
+    
+La boucle ```do...while``` fonctionne exactement comme la boucle ```while``` à
+une différence près. En effet si l'expression de votre boucle évalue à ```false```
+dès le début, la boucle ne sera jamais exécuté, pas même une seule fois. L'intérêt
+de la boucle ```do...while``` est de permettre à la boucle de s'exécuter au moins
+une fois quoi qu'il arrive. Par exemple :
+
+    while(false)
+        cout << "Bonjour!" << endl;
+        
+Ici, *Bonjour!* ne s'affichera jamais à l'écran.
+
+    do
+        cout << "Bonjour!" << endl;
+    while(false);
+    
+Alors que ici, *Bonjour!* s'affichera une seule fois.
+
+Vous le voyez j'ai aussi enlevé les accolades ici, si le code tient sur une seule
+ligne vous pouvez les enlever. Mais vous n'êtes pas obligé, tout est question de
+préférences et d'habitudes.
