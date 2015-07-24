@@ -38,3 +38,10 @@ valide". S'il ne le rentre pas, il va lui demander encore et encore.
 boucle par *Tant que ```message``` n'est pas égal à "je valide", affiche un 
 texte et rempli la variable ```message``` par le texte que l'utilisateur
 entrera.*
+
+**Mais attention !** Faites bien attention à l'expression que vous entrerez dans
+la boucle car si elle reste valide à l'infini (donc tout le temps ```true```),
+vous serez dans une boucle infinie qui ne cessera jamais ! Elle tournera sans
+jamais s'interrompre. Votre expression, au bout d'un moment, selon la logique
+de votre application doit évaluer à ```false``` au bout d'un moment afin
+de sortir de la boucle.
