@@ -46,7 +46,7 @@ Rien de plus simple, prenez ce code et mettez le dans votre IDE.
     
 Puis lancez l'application et que voyons nous ?
 
-![](Screenshot_2015-07-22_17-30-31.png)
+![](2_5_chuck_norris_1.png)
 
 Et oui ! Chuck Norris s'affiche à l'écran, bienvenue dans la magie et la
 simplicité du C++ :-D !
@@ -55,7 +55,7 @@ Mais, fort heureusement, la puissance des ```string``` ne s'arrête pas là. Nou
 pouvons par exemple les concaténer, simplement en utilisant l'opérateur ```+```
 entre deux ```string```. Regardez plutôt :
 
-![](Screenshot_2015-07-22_17-35-14.png)
+![](2_5_chuck_norris_2.png)
 
 Plutôt simple et efficace.
 
