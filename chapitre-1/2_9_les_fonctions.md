@@ -19,8 +19,8 @@ dès que vous le souhaitez !
 ### Comment fonctionne une fonction ?
 
 C'est ici que les choses se compliquent. Pour créer une fonction, vous devez
-appliquer sa syntaxe hors de la fonction ```main()```, avant pour être plus
-précis.
+appliquer sa syntaxe hors de la fonction ```main()```, avant la fonction 
+```main()``` pour être plus précis.
 
 Voici comment se structure sa syntaxe :
 
