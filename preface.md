@@ -5,7 +5,7 @@ Et c'est, croyez moi, une très bonne idée.
 
 En effet, dans ce livre nous allons partir des bases du C++ pour progresser 
 lentement mais sûrement. Une fois ce livre acquis vous aurez amplement les
-connaissances nécessaire pour mener des projets de petites ou moyennes
+connaissances nécessaires pour mener des projets de petites ou moyennes
 envergures. Et n'oubliez surtout pas que c'est en forgeant qu'on devient 
 forgeron !
 
@@ -38,16 +38,16 @@ suite.
 
 ## Ce livre est très concis
 
-J'ai volontairement écris ce livre de manière très concise afin de ne pas vous
+J'ai volontairement écrit ce livre de manière très concise afin de ne pas vous
 ennuyer. Seul "bémol" à ce choix : vous devez donner plus du votre encore. Vous
 devez vraiment faire partie du livre et pas seulement être un spectateur. Les
 exemples que je donne ne sont pas là que pour accompagner de manière secondaire
 les explications, les exemples font partie intégrante des explications et sont
-même **plus important** que les explications.
+même **plus importants** que les explications.
 
 ## Le glossaire !
 
-Pensez-y au glossaire ! La plupart des termes techniques sont indexés dans le
+Pensez au glossaire ! La plupart des termes techniques sont indexés dans le
 glossaire. Celui-ci vous servira d'aide mémoire afin de ne pas oublier les
 divers termes essentiels que nous aborderons ici.
 
@@ -55,7 +55,7 @@ divers termes essentiels que nous aborderons ici.
 
 Si vous êtes sur téléphone ou sur tablette ou encore si vous avez un petit
 écran, l'affichage des lignes de code peut être problématique. Voici un exemple
-de code, les lignes de codes ne serons jamais plus longues que celles-ci :
+de code, les lignes de codes ne seront jamais plus longues que celles-ci :
 
     std::string& longueLigne(std::string &ligne, int * ptr)
     {
