@@ -42,9 +42,8 @@ entrera.*
 **Mais attention !** Faites bien attention à l'expression que vous entrerez dans
 la boucle car si elle reste valide à l'infini (donc tout le temps ```true```),
 vous serez dans une boucle infinie qui ne cessera jamais ! Elle tournera sans
-jamais s'interrompre. Votre expression, au bout d'un moment, selon la logique
-de votre application doit évaluer à ```false``` au bout d'un moment afin
-de sortir de la boucle.
+jamais s'interrompre. Votre expression, au bout d'un moment, devra
+évaluer à ```false``` au bout d'un moment afin de sortir de la boucle.
 
 ### La boucle ```do...while```
 
@@ -78,6 +77,7 @@ Alors que ici, *Bonjour!* s'affichera une seule fois.
 
 Vous le voyez j'ai aussi enlevé les accolades ici, si le code tient sur une seule
 ligne vous pouvez les enlever. Mais vous n'êtes pas obligé, tout est question de
+goûts.
 
 
 ### La boucle ```for```
