@@ -15,7 +15,7 @@ codés en C++ avec les types primitif que nous avons vu précédemment.
 
 ### Les inclusions
 
-Parfois on C++, nous devrons inclure une nouvelle fonctionnalité ou un autre
+Parfois en C++, nous devrons inclure une nouvelle fonctionnalité ou un autre
 fichier que nous avons créé. Rien de plus simple, il suffit qu'en haut de votre
 fichier texte vous insérez la syntaxe suivante :
 
@@ -62,7 +62,7 @@ Plutôt simple et efficace.
 Je vais maintenant vous présenter une nouvelle notion. Vous devez considérer que
 les ```string``` sont un peu comme des grosses variables qui offrent pleins de
 possibilités. Par exemple, les ```string``` possèdent comme des informations,
-des propriétés qui peuvent être accéder via un ```.``` et avec des ```()``` à la
+des propriétés qui peuvent être accédées via un ```.``` et avec des ```()``` à la
 fin !
 
 Nous verrons le pourquoi du comment, contentez vous d'accepter que c'est une
@@ -74,16 +74,16 @@ connaitre la longueur de votre chaine de caractère, vous devez simplement écri
 
 Ici la notation est nouvelle. ```length``` veux dire en anglais *longueur*. On
 accède donc à la longueur de la chaine concernée via le ```.``` et on termine
-la propriété voulu par des ```()``` (vous comprendrez pleinement cette notation
+la propriété voulue par des ```()``` (vous comprendrez pleinement cette notation
 bientôt, ne vous inquiètez pas). Ainsi, écrire ```name.length()``` vous retourne
 la longueur de la chaine c'est à dire 6 dans notre cas.
 
-Il existe d'autre méthodes comme ```erase()``` qui permet de vider complètement
-la chaine et pleins d'autres que nous verrons plus tard.
+Il existe d'autre méthodes comme ```erase()``` qui permettent de vider 
+complètement la chaine et plein d'autres que nous verrons plus tard.
 
 **Attention** : petite subtilité très importante ! Un ```char``` (un caractère)
 s'écrit avec des apostrophes alors qu'un ```string``` (une chaine) s'écrit avec
-des guillements !
+des guillemets !
 
     char letter = 'a';
     string word = "Hi!";
