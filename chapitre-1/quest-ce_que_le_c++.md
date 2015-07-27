@@ -48,7 +48,7 @@ c'est à dire que nous allons écrire le C++ dans notre alphabet puis avec un
 *compilateur*, ce code sera traduit en .exe sous Windows par exemple.
 
 Certains langages de programmations sont dits *interprétés*, c'est à dire
-qu'ils sont compilé lors de l'exécution et pas avant l'exécution, comme avec le
+qu'ils sont compilés lors de l'exécution et pas avant l'exécution, comme avec le
 C++.
 
 > permettant la programmation sous de multiples paradigmes
@@ -74,11 +74,11 @@ de code dans des boites indépendants que nous lierons entre elles.
 La programmation générique quant à elle, assez complexe au début, permet
 de travailler sur des données sans faire de distinction du type de la donnée.
 Si vous ne connaissez pas le C++, vous ne comprenez probablement pas ce que ça
-veux dire mais nous le verrons à la fin de ce livre.
+veut dire mais nous le verrons à la fin de ce livre.
 
 ### Et donc ?
 
-Cette définition ne veux ainsi par forcément dire grand chose pour vous. C'est
+Cette définition ne veut ainsi pas forcément dire grand chose pour vous. C'est
 pour cette raison que je vous annonce que nous allons pouvoir commencer notre
 apprentissage du C++ avec la programmation procédural dès maintenant !
 
