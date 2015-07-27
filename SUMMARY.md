@@ -11,7 +11,7 @@
    * [Dialoguons avec l'utilisateur !](chapitre-1/2_6_dialoguons_avec_lutilisateur.md)
    * [Les conditions](chapitre-1/2_7_les_conditions.md)
    * [Les boucles](chapitre-1/2_8_les_boucles.md)
-   * [Les fonctions](chapitre-1/les_fonctions.md)
+   * [Les fonctions](chapitre-1/2_9_les_fonctions.md)
    * Les espaces de nom
    * Les tableaux
        * Les tableaux statique
