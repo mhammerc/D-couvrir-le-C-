@@ -46,7 +46,7 @@ signifie entier en anglais).
 Placez tout ceci dans le ```main()``` comme je l'ai précisé dans le chapitre
 précédent et voyez le résultat !
 
-![](Screenshot_2015-07-21_17-42-09.png)
+![](2_4_int_qi_equal_9.png)
 
 Pour tous les types que nous allons voir ici, vous pouvez les passer à ```cout```
 via l'opérateur de flux ```<<``` afin d'afficher la variable dans la console.
@@ -137,7 +137,7 @@ de ces types :
 
 Ce qui affichera :
 
-![](Screenshot_2015-07-21_18-21-35.png)
+![](2_4_different_variable_types.png)
 
 Notez que le type ```bool``` affiche 1 s'il vaut ```true```, sinon il affiche 0.
 Nous verrons par la suite comment utiliser un boolean pour établir des conditions.
