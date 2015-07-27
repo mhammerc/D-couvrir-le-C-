@@ -89,11 +89,11 @@ vue, rajoutons des éléments à notre code :
 Lancez le programme et entrez par exemple juste votre prénom. Tout fonctionne
 parfaitement !
 
-![](Screenshot_2015-07-23_12-38-59.png)
+![](2_6_nom_prenom.png)
 
 Mais que se passe-t-il si vous insérez votre prénom *et* votre nom ?
 
-![](Screenshot_2015-07-23_12-41-06.png)
+![](2_6_wtf_nom_prenom.png)
 
 Le logiciel part en fanfare ! En effet il semble ne pas prendre en compte le
 second mot que vous avez entrer et ignore complètement les autres ```cin```. La
@@ -137,7 +137,7 @@ Et hop ! Tout fonctionne correctement. Comme vous le voyez, ```getline``` met
 automatiquement ce que l'utilisateur a entré dans la variable spécifié comme 
 ```cin``` .
 
-![](Screenshot_2015-07-23_14-43-55.png)
+![](2_6_getline.png)
 
 Voilà. Ce chapitre reste vraiment basique car d'autres notions sont nécessaires
 pour aller plus loin. Mais ne vous inquiétez pas, nous verrons tout au
