@@ -1,2 +1,2 @@
-# D-couvrir-le-C-
+# Découvrir le C++
 Le C++ est simple, venez le découvrir !
