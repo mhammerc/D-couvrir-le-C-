@@ -87,23 +87,23 @@ normal. Voici des exemples que je vous propose d'analyser et de lancer chez vous
 Ce programme dira bonjour trois fois. Voici une variante avec les paramètres par
 défaut :
 
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-void sayHello(string name = "outsider")
-{
-    cout << "Hello " << name << "!" << endl;
-}
-
-int main()
-{
-    sayHello("Martin");
-    sayHello("Benjamin");
-    sayHello();
-    sayHello("Chuck Norris");
-}
+    #include <iostream>
+    #include <string>
+    
+    using namespace std;
+    
+    void sayHello(string name = "outsider")
+    {
+        cout << "Hello " << name << "!" << endl;
+    }
+    
+    int main()
+    {
+        sayHello("Martin");
+        sayHello("Benjamin");
+        sayHello();
+        sayHello("Chuck Norris");
+    }
 
 Et enfin voici un exemple avec les type de retour :
 
