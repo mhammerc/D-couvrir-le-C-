@@ -18,7 +18,7 @@ Rien de plus simple. Non, vraiment !
 Allez sur [cette page](http://www.qt.io/download-open-source/) et cliquez sur
 le gros bouton vert. Un téléchargement se lancera, une fois qu'il sera fini
 lancez le fichier obtenu puis laissez vous guider. Les paramètres par défaut
-devraient être largement suffisant. Assurez vous tout de même que la case Tools
+devraient être largement suffisants. Assurez-vous tout de même que la case Tools
 est cochée ainsi que la dernière version de Qt.
 
 ![](qt_installer.png)
@@ -48,7 +48,7 @@ Creator ! Et croyez moi, vous allez l'aimer. Ou tout du moins il vous facilitera
 tellement la vie que vous ne pourrez plus vous en passer !
 
 Peut être que votre version de Qt Creator sera différente de la mienne ou dans
-une autre langue, cela importe peu les manipualtions seront probalement les
+une autre langue, cela importe peu les manipulations seront probablement les
 mêmes.
 
 Cliquez sur *New Project* ou sur *Nouveau Projet* en français.
@@ -62,7 +62,7 @@ livre.
 
 Ensuite Qt Creator vous demandera un nom de projet, mettez par exemple *learn*
 pour cet apprentissage. Cliquez sur suivant à plusieurs reprises, puis
-le tant attendue éditeur apparaît enfin !
+le tant attendu éditeur apparaît enfin !
 
 ![](qt_editor.png)
 
@@ -70,7 +70,7 @@ Nous pouvons découper Qt Creator en 3 parties :
 
 ![](qt_editor-2.png)
 
-La première partie contient le code. N'y faites pas encore attention nous
+La première partie contient le code. N'y faites pas encore attention, nous
 travaillerons dessus dans un prochain chapitre.
 
 La seconde partie contient les fichiers ouverts et les fichiers de votre projet.
