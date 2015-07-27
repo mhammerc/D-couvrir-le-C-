@@ -38,7 +38,7 @@ Choisissez le judicieusement, il doit représenter ce que fait la fonction !
 Parfois, dans la fonction, vous aurez besoin d'information. Par exemple vous
 créez une fonction ```sayHello``` qui dit bonjour à la personne désigné. Pour
 désigner cette personne, la fonction doit connaitre son nom, et c'est ici que
-les paramètres interviennent. Les paramètres sont une variable qui est passé
+les paramètres interviennent. Les paramètres sont des variables qui sont passés
 dans la fonction et que la fonction peut utiliser, par exemple le nom d'une
 personne.
 
