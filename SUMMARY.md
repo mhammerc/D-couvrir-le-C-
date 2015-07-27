@@ -14,8 +14,8 @@
    * [Les fonctions](chapitre-1/2_9_les_fonctions.md)
    * Les espaces de nom
    * Les tableaux
-       * Les tableaux statique
-       * Les tableaux dynamique
+       * Les tableaux statiques
+       * Les tableaux dynamiques
    * Encore plus sur les variables
        * Les variables 2
        * Les références
