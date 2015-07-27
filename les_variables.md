@@ -66,10 +66,30 @@ Voyez plutôt ce code :
     
     cout << x << endl;
     
-Première nouveauté ici, vous pouvez **commenter** votre code avec //. Placez un
-// n'importe où dans votre code et vous pourrez insérer sur tout le reste de la
+Première nouveauté ici, vous pouvez **commenter** votre code avec ```//```. Placez un
+```//``` n'importe où dans votre code et vous pourrez insérer sur tout le reste de la
 ligne du texte ou tout ce que vous voulez, ce ne sera pas pris en compte dans le
 logiciel.
+
+Les commentaires utilisant ```//``` ne peuvent tenir que sur une ligne. Comment
+faire pour les commentaires multilignes ? C'est simple ! Utilisez ```/* */``` !
+La règle est simple : placez votre commentaire entre le ```/*``` et le ```*/```.
+Le commentaire peut faire plusieurs lignes et être aussi grand que vous le voulez !
+
+    int i = 5;
+    
+    /* Coucou
+    Je suis un commentaire
+    lala
+    */
+    
+    i = 8;
+    
+    /* Rebonjour
+     * Je suis un commentaire
+     * avec plus de classe !
+     * :-D !
+     */
 
 J'ai ici classé le code en 3 étapes.
 
