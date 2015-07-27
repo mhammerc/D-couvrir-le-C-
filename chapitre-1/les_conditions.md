@@ -1,23 +1,23 @@
 ## Les conditions
 
 Allez on garde du courage, on ne désespère pas ! Ce chapitre et le chapitre
-suivant seront très simple !
+suivant seront très simples !
 
-Jusque ici notre programme était cantonné à un déroulement fixe, et prévisible.
+Jusqu'ici, notre programme était cantonné à un déroulement fixe, et prévisible.
 Si seulement nous pourrions rajouter comme des modules qui s'exécutent seulement
 et seulement si une condition x est vérifiée...
 
 ### La structure générale
 
-Mais rassurez vous c'est possible en C++ ! Et c'est même enfantin. Les conditions
-(ou *structure de contrôle* techniquement parlant) sont un composant que l'on
-retrouve dans absolument tous les langages de programmation à ma connaissance.
+Mais rassurez vous, c'est possible en C++ ! Et c'est même enfantin. Les conditions
+(ou *structures de contrôle* techniquement parlant) sont un composant que l'on
+retrouve dans absolument tous les langages de programmation, à ma connaissance.
 
 Voici leur syntaxe :
 
     if(condition)
     {
-        // ...
+        // ...boucl
     }
     else if(condition2)
     {
@@ -38,12 +38,12 @@ mettez votre condition (par exemple "si l'utilisateur à 3 ans") et enfin entre
 les accolades ```{``` et ```}``` vous écrivez le code à exécuter en cas de
 succès.
 
-Concrètement, la condition est une *expression* qui peut être pleins de choses
-(nous allons voir juste après). Si elle est évalué comme étant **true**, le code
-entre accolades sera exécuté sinon l'expression sera évalué comme étant **false**
+Concrètement, la condition est une *expression* qui peut être plein de choses
+(nous allons voir juste après). Si elle est évaluée comme étant **true**, le code
+entre accolades sera exécuté, sinon l'expression sera évalué comme étant **false**
 et le code entre accolades ne sera pas exécuté.
 
-Premièrement cette expression peut être une comparaison entre deux valeurs,
+Premièrement, cette expression peut être une comparaison entre deux valeurs,
 selon le tableau suivant :
 
 | Signe | Exemple | Correspondance |
@@ -117,7 +117,7 @@ manières, voyez ci-contre :
     bool f = -80; // True
     bool g = a != b; // True
     
-Et oui, regarder bien le dernier exemple ! En réalité, les opérateur de
+Et oui, regardez bien le dernier exemple ! En réalité, les opérateurs de
 comparaisons que nous avons eu plus haut retourne un booléen et vous pouvez donc
 stocker le résultat dans une variable si l'envie vous prend. Ainsi vous pouvez
 directement passer une variable ```bool``` à une condition si cela vous arrange.
@@ -131,8 +131,8 @@ Pratique non :-D ?
 
 Car j'aime vous offrir des cadeaux et que je pense à vous, je vais vous offrir
 une astuce. En effet, vous pouvez mettre plusieurs expressions dans une
-condition avec les opérateurs logiques qui concatènent (un drôle de moi oui oui)
-deux ```bool``` en un seul ! Voici un tableau les présentants :
+condition avec les opérateurs logiques qui concatènent (un drôle de mot, oui oui)
+deux ```bool``` en un seul ! Voici un tableau les présentant :
 
 | Mot clé | Explication | Exemple |
 | -- | -- | -- |
@@ -140,7 +140,7 @@ deux ```bool``` en un seul ! Voici un tableau les présentants :
 | &#124;&#124; | Opérateur logique OU | false  &#124;&#124; true // True et false  &#124;&#124; false // False | 
 | ! | Opérateur logique NON | ```!true // False``` et ```!false // True``` |
 
-Ainsi par exemple on peut les utiliser de la manière suivante :
+Ainsi, par exemple, on peut les utiliser de la manière suivante :
 
     bool a = true;
     bool b = false;
@@ -155,6 +155,6 @@ Ainsi par exemple on peut les utiliser de la manière suivante :
     if(!b) // Valide
         cout << "Condition 3 valide" << endl;
     
-Voilà vous savez à peu près tout pour les conditions, ne vous inquiétez pas
-s'il vous reste des zones d'ombre nous les éclaireront dans les
+Voilà vous savez à peu près tout sur les conditions, ne vous inquiétez pas
+s'il vous reste des zones d'ombre, nous les éclairerons dans les
 prochains chapitres au fur et à mesure de la pratique.
