@@ -1,8 +1,8 @@
 ## Les boucles
 
-Parfois, dans la logique de votre application vous aurez besoin de répéter une
+Parfois, dans la logique de votre application, vous aurez besoin de répéter une
 action x fois. Par exemple vous devez dire bonjour 30 fois. Vous n'allez
-pas écrire ```cout << "Bonjour !" << endl;``` 30 fois ! Se serai du suicide pur
+pas écrire ```cout << "Bonjour !" << endl;``` 30 fois ! Ce serait du suicide pur
 et simple.
 
 Non, les boucles permettent de faire cela automatiquement et super simplement.
@@ -36,7 +36,7 @@ valide". S'il ne le rentre pas, il va lui demander encore et encore.
 
 ```while``` en anglais se traduit ici par **Tant que**. On peut donc lire cette
 boucle par *Tant que ```message``` n'est pas égal à "je valide", affiche un 
-texte et rempli la variable ```message``` par le texte que l'utilisateur
+texte et je remplis la variable ```message``` par le texte que l'utilisateur
 entrera.*
 
 **Mais attention !** Faites bien attention à l'expression que vous entrerez dans
@@ -47,7 +47,7 @@ jamais s'interrompre. Votre expression, au bout d'un moment, devra
 
 ### La boucle ```do...while```
 
-La boucle ```do...while``` est une variante à la boucle ```while```. Observez
+La boucle ```do...while``` est une variante de la boucle ```while```. Observez
 ce code :
 
     string message;
@@ -75,9 +75,9 @@ Ici, *Bonjour!* ne s'affichera jamais à l'écran.
     
 Alors que ici, *Bonjour!* s'affichera une seule fois.
 
-Vous le voyez j'ai aussi enlevé les accolades ici, si le code tient sur une seule
-ligne vous pouvez les enlever. Mais vous n'êtes pas obligé, tout est question de
-goûts.
+Vous le voyez, j'ai aussi enlevé les accolades ici, si le code tient sur une seule
+ligne, vous pouvez les enlever. Mais vous n'êtes pas obligé, tout est question de
+goût.
 
 
 ### La boucle ```for```
@@ -90,12 +90,12 @@ Voyons directement un exemple :
     }
 
 Comme vous le voyez, ce code dit *Bonjour!* un total de 30 fois. La boucle
-```for``` est particulièrement adapté pour faire un compteur par exemple.
+```for``` est particulièrement adaptée pour faire un compteur, par exemple.
 
 Cette boucle fonctionne en trois étapes :
 
 * L'initialisation ```int i = 0;``` : on déclare le compteur, cette étape est 
-effectué une seule fois.
+effectuée une seule fois.
 * La condition ```i < 30;``` : si c'est condition est fausse, la boucle s'arrête.
 * L'action ```++i``` : on incrémente notre compteur. Mais on n'est pas limité à
 une simple incrémentation on peut faire ```i += 2``` par exemple. En fait, vous
@@ -103,8 +103,8 @@ pouvez mettre n'importe quel instruction ici, mais juste une seule. La plupart d
 temps on va incrémenter un compteur. **Surtout ne mettez jamais de ```;``` pour
 cette troisième étape!**
 
-Ainsi cette boucle est particulièrement adapté pour effectuer une action x fois
-ou encore pour garder en mémoire le nombre d'itération de la boucle nécessaire
+Ainsi cette boucle est particulièrement adaptée pour effectuer une action x fois
+ou encore pour garder en mémoire le nombre d'itérations de la boucle nécessaires
 avant que celle-ci ne se termine. Voici un exemple :
 
     #include <iostream>
@@ -115,8 +115,8 @@ avant que celle-ci ne se termine. Voici un exemple :
     int main()
     {
         int i; // Initialisation dans la boucle
-        const int init = 50;
-        const int limit = 675;
+        int init = 50;
+        int limit = 675;
     
         for(i = init; i < limit; ++i);
     
@@ -139,5 +139,5 @@ du compteur).
 
 Comment faire si, lorsque nous sommes dans une boucle, nous souhaitons en sortir,
 **tout de suite** ? Eh bien je vous répondrai : **break;** ! En effet, si
-l'instruction ```break;``` est exécuté dans une boucle, le programme sortira
+l'instruction ```break;``` est exécutée dans une boucle, le programme sortira
 aussitôt de la boucle pour continuer la suite du code. Essayez !
