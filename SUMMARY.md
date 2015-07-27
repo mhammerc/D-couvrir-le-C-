@@ -6,7 +6,7 @@
    * [Qu'est-ce que le C++ ?](chapitre-1/2_1_quest-ce_que_le_c++.md)
    * [Installons un IDE](chapitre-1/2_2_installons_un_ide.md)
    * [Vos premières lignes de C++](chapitre-1/2_3_vos_premieres_lignes_de_c++.md)
-   * [Les variables](2_4_les_variables.md)
+   * [Les variables](chapitre-1/2_4_les_variables.md)
    * [Les chaînes de caractères string](chapitre-1/2_5_les_chaines_de_caracteres_string.md)
    * [Dialoguons avec l'utilisateur !](chapitre-1/2_6_dialoguons_avec_lutilisateur.md)
    * [Les conditions](chapitre-1/2_7_les_conditions.md)
