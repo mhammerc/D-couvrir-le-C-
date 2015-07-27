@@ -45,6 +45,13 @@ exemples que je donne ne sont pas là que pour accompagner de manière secondair
 les explications, les exemples font partie intégrante des explications et sont
 même **plus importants** que les explications.
 
+## Ce livre est *example driven*
+
+Vous verrez que je donne **beaucoup** d'exemples et que parfois mes explications
+sont très concises. J'insiste bien, vous devez **lire**, **comprendre** et
+**apprendre** plus par les exemples que par mes explications. Mes explications ne
+sont ici que pour vous aider à comprendre les exemples !
+
 ## Le glossaire !
 
 Pensez au glossaire ! La plupart des termes techniques sont indexés dans le
