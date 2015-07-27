@@ -1,8 +1,8 @@
 ## Les variables
 
-Soyons clair, ce chapitre est le **premier** vrai chapitre de programmation. On
-ne vas plus observer et modifier, je vais vous apprendre syntaxes, des
-manipulations, des règles. Alors comprenez bien ce chapitre dans son intégralité
+Soyons clairs, ce chapitre est le **premier** vrai chapitre de programmation. On
+ne va plus observer et modifier, je vais vous apprendre syntaxes, des
+manipulations, des règles. Alors comprenez bien ce chapitre dans son intégralité,
 car partout où vous irez dans la programmation informatique, vous retrouverez
 des variables.
 
@@ -12,18 +12,19 @@ C'est une chose que vous allez aimer. Un concept que vous allez adorer. Une
 notion que vous [allez] utiliser tous les jours. Oui.
 
 > Une variable permet de stocker une information. Une variable possède une
-> durée de vie et est le plus généralement stocké dans la mémoire vive.
+> durée de vie et est le plus généralement stockée dans la mémoire vive.
 
 Tout simplement !
 
 Par exemple imaginons que vous créez un jeu révolutionnaire et que votre
-personnage principal a un nombre de points de vie qui peut *varier*. Nous allons alors
-créer une variable pour sauvegarder ce nombre de points de vie pour ensuite
-l'afficher à l'écran.
+personnage principal a un nombre de points de vie qui peut *varier*. Nous allons
+alors créer une variable pour sauvegarder ce nombre de points de vie pour 
+ensuite l'afficher à l'écran.
 
-Techniquement parlant, les variables ne sont pas forcément stockés dans la
+Techniquement parlant, les variables ne sont pas forcément stockées dans la
 mémoire vive, étant donné que les processeurs modernes possèdent des registres
-relativement grand qui agissent comme une mémoire vive mais encore plus rapide.
+relativement grands qui agissent comme de la mémoire vive, mais encore plus 
+rapide.
 
 ### Et en C++, ça donne quoi ?
 
@@ -32,7 +33,7 @@ spécificités.
 
 Le C++ est un langage fortement typé, c'est à dire que vous **devez** préciser
 le type de la variable que vous déclarez (enfin presque, nous verrons dans un
-futur chapitre des subtilités). Pas d'inquiètude c'est très simple. Les 
+futur chapitre des subtilités). Pas d'inquiètude, c'est très simple. Les 
 différents types sont par exemple les nombres, ou des caractères.
 
 Prenons un exemple avec ```int``` qui représente un nombre (*integer* qui
@@ -66,7 +67,7 @@ Voyez plutôt ce code :
     cout << x << endl;
     
 Première nouveauté ici, vous pouvez **commenter** votre code avec //. Placez un
-// n'importe où dans votre code et vous pourrez insérer sur tous le reste de la
+// n'importe où dans votre code et vous pourrez insérer sur tout le reste de la
 ligne du texte ou tout ce que vous voulez, ce ne sera pas pris en compte dans le
 logiciel.
 
