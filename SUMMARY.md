@@ -12,7 +12,7 @@
    * [Les conditions](chapitre-1/2_7_les_conditions.md)
    * [Les boucles](chapitre-1/2_8_les_boucles.md)
    * [Les fonctions](chapitre-1/2_9_les_fonctions.md)
-   * Les espaces de nom
+   * Les espaces de noms
    * Les tableaux
        * Les tableaux statiques
        * Les tableaux dynamiques
