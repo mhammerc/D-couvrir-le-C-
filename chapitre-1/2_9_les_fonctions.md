@@ -108,7 +108,6 @@ défaut :
 Et enfin voici un exemple avec les type de retour :
 
     #include <iostream>
-    #include <string>
     
     using namespace std;
     
