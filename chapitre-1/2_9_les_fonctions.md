@@ -24,7 +24,7 @@ précis.
 
 Voici comment se structure sa syntaxe :
 
-![](function.png)
+![](2_9_les_fonctions.png)
 
 #### Le nom de la fonction
 
