@@ -103,3 +103,41 @@ pouvez mettre n'importe quel instruction ici, mais juste une seule. La plupart d
 temps on va incrémenter un compteur. **Surtout ne mettez jamais de ```;``` pour
 cette troisième étape!**
 
+Ainsi cette boucle est particulièrement adapté pour effectuer une action x fois
+ou encore pour garder en mémoire le nombre d'itération de la boucle nécessaire
+avant que celle-ci ne se termine. Voici un exemple :
+
+    #include <iostream>
+    #include <string>
+    
+    using namespace std;
+    
+    int main()
+    {
+        int i; // Initialisation dans la boucle
+        const int init = 50;
+        const int limit = 675;
+    
+        for(i = init; i < limit; ++i);
+    
+        cout << "La difference entre " << limit << " et "
+             << init << " est de " << i - init << "." << endl;
+    }
+    
+Cet exemple est assez compliqué, je vous propose de le mettre dans votre IDE et
+de l'analyser. C'est un algorithme assez simple, complètement inutile mais il
+présente bien le principe. Il calcule la différence entre deux nombres
+(```init``` et ```limit```).
+
+Vous pouvez remarqué que je n'ai pas mis de bloc de code avec la boucle ```for```,
+j'ai directement mis un point virgule. C'est aussi possible avec la boucle
+```while``` : ça permet de simplement "attendre" que la boucle soit terminée
+sans rien faire (ou dans le cas de la boucle ```for```, en faisant les calculs
+du compteur).
+
+### Le petit bonus
+
+Comment faire si, lorsque nous sommes dans une boucle, nous souhaitons en sortir,
+**tout de suite** ? Eh bien je vous répondrai : **break;** ! En effet, si
+l'instruction ```break;``` est exécuté dans une boucle, le programme sortira
+aussitôt de la boucle pour continuer la suite du code. Essayez !
