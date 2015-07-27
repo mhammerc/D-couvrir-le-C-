@@ -31,7 +31,7 @@ Voici comment se structure sa syntaxe :
 Le nom de la fonction est très important car c'est avec ce nom que nous allons
 l'appeler. Par exemple, si vous nommez votre fonction ```openWindow```, dans
 notre code nous pourrons l'appeler en écrivant l'instruction ```openWindow();```.
-Choisisez le judicieusement, il doit représenter ce que fait la fonction !
+Choisissez le judicieusement, il doit représenter ce que fait la fonction !
 
 #### Les paramètres
 
