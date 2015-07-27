@@ -14,9 +14,9 @@ dans la console.
 
 ### La première méthode
 
-Nous avons utilisé jusque ici le fameux ```cout``` (qui pour rappelle se prononce *c-out* :
-Console OUT). Automatiquement par analogie nous allons découvrir le ```cin```
-(*c-in*, Console IN). Voici un exemple d'utilisation tout bête :
+Nous avons utilisé jusque ici le fameux ```cout``` (qui pour rappel se prononce 
+*c-out* : Console OUT). Automatiquement par analogie nous allons découvrir le 
+```cin``` (*c-in*, Console IN). Voici un exemple d'utilisation tout bête :
 
     #include <iostream>
     
@@ -39,7 +39,7 @@ lignes comme je viens de le faire. N'oubliez pas, c'est le ```;``` qui délimite
 la fin d'une instruction (dans le cas présent c'est l'instruction ```cout```).
 Sauter une ligne ne délimitera jamais une instruction !
 
-Ensuite, on peux voir le fameux ```cin```. Rien de plus simple vous le voyez,
+Ensuite, on peut voir le fameux ```cin```. Rien de plus simple vous le voyez,
 il suffit d'écrire ```cin``` avec les chevrons dans le sens opposé de
 ```cout``` (car le flux va dans l'autre sens). Essayez ce programme chez vous,
 rentrez un nombre lorsqu'il vous sera demandé et voyez la magie opérer !
@@ -59,10 +59,10 @@ Profitons en pour demander l'âge de l'utilisateur. Regardez plutôt :
 
     cout << endl << "Vous avez " << age << " ans et " << revenu << " euros de revenu mensuel."<< endl;
     
-*Nous ne verrons pas les cas où l'utilisateur n'entre pas les valeurs voulu.*
+*Nous ne verrons pas les cas où l'utilisateur n'entre pas les valeurs voulues.*
 
-Maintenant demandons lui son nom et son prénom. Rien de plus simple à première vu,
-rajoutons des éléments à notre code :
+Maintenant, demandons lui son nom et son prénom. Rien de plus simple à première 
+vue, rajoutons des éléments à notre code :
 
     string name;
     int revenu;
@@ -91,13 +91,13 @@ parfaitement !
 
 ![](Screenshot_2015-07-23_12-38-59.png)
 
-Mais que se passe t'il si vous insérez votre prénom *et* votre nom ?
+Mais que se passe-t-il si vous insérez votre prénom *et* votre nom ?
 
 ![](Screenshot_2015-07-23_12-41-06.png)
 
 Le logiciel part en fanfare ! En effet il semble ne pas prendre en compte le
 second mot que vous avez entrer et ignore complètement les autres ```cin```. La
-raison à cela est simple : ```cin``` se limite à un mot par un mot. Et du coup
+raison à cela est simple : ```cin``` se limite à un mot par un mot. Et du coup,
 comme il garde un mot un réserve (votre nom que vous avez mis après votre
 prénom) il attend que vous lui demandiez de remplir un ```string``` pour vider
 son *buffer* hors ce n'est pas ce que nous voulons.  Nous voulons récupérer
@@ -140,5 +140,5 @@ automatiquement ce que l'utilisateur a entré dans la variable spécifié comme
 ![](Screenshot_2015-07-23_14-43-55.png)
 
 Voilà. Ce chapitre reste vraiment basique car d'autres notions sont nécessaires
-pour aller plus loin. Mais ne vous inquiétez pas, nous verrons tous au
+pour aller plus loin. Mais ne vous inquiétez pas, nous verrons tout au
 fur et à mesure. Entamons maintenant les **conditions** !
