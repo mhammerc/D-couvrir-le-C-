@@ -62,7 +62,7 @@ en cours, même s'il reste du code à exécuter par la suite.
 Si vous ne voulez rien retourner à l'appelant, spécifier le type ```void``` qui
 signifie *vide* ou *rien* en anglais.
 
-#### Un exemple !
+#### Des exemples !
 
 Vous n'avez probablement pas pu assimiler tout ce que je viens de présenter, c'est
 normal. Voici des exemples que je vous propose d'analyser et de lancer chez vous.
