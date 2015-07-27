@@ -21,7 +21,7 @@ lancez le fichier obtenu puis laissez vous guider. Les paramètres par défaut
 devraient être largement suffisants. Assurez-vous tout de même que la case Tools
 est cochée ainsi que la dernière version de Qt.
 
-![](qt_installer.png)
+![](2_2_qt_installer.png)
 
 Ensuite l'installation commence, prenez un petit café ou un jus multi-vitaminé
 le temps que celle-ci se termine !
@@ -41,7 +41,7 @@ Si vous êtes arrivé jusque ici, bravo ! Maintenant je vous propose de lancer
 Qt Creator. Découvrons ce qu'il a dans le ventre et créons notre premier projet
 C++.
 
-![](qt_home.png)
+![](2_2_qt_home.png)
 
 Enfin le moment tant attendu ! Ladies and Gentlemans, je vous présente Qt 
 Creator ! Et croyez moi, vous allez l'aimer. Ou tout du moins il vous facilitera
@@ -53,7 +53,7 @@ mêmes.
 
 Cliquez sur *New Project* ou sur *Nouveau Projet* en français.
 
-![](newcppproject.png)
+![](2_2_newcppproject.png)
 
 Une nouvelle fenêtre devrait apparaître. Allez dans les projets non Qt à gauche 
 puis sélectionnez un projet C++ comme sur l'image. Enfin, validez. 
@@ -64,11 +64,11 @@ Ensuite Qt Creator vous demandera un nom de projet, mettez par exemple *learn*
 pour cet apprentissage. Cliquez sur suivant à plusieurs reprises, puis
 le tant attendu éditeur apparaît enfin !
 
-![](qt_editor.png)
+![](2_2_qt_editor.png)
 
 Nous pouvons découper Qt Creator en 3 parties :
 
-![](qt_editor-2.png)
+![](2_2_qt_editor-2.png)
 
 La première partie contient le code. N'y faites pas encore attention, nous
 travaillerons dessus dans un prochain chapitre.
