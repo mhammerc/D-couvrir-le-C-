@@ -73,10 +73,10 @@ logiciel.
 
 J'ai ici classé le code en 3 étapes.
 
-+ 1) On **déclare** la variable. On dit que elle doit être réservé dans
++ 1) On **déclare** la variable. On dit que elle doit être réservée dans
 la mémoire, désormais elle nous appartient.
 + 2) On **initialise** la variable. En effet la variable était créée mais était
-inutilisable car elle n'avais aucune valeur. Ici on lui donne une valeur, 
+inutilisable car elle n'avait aucune valeur. Ici on lui donne une valeur, 
 c'est à dire zéro.
 + 3) On **assigne** une nouvelle valeur à la variable. Cette valeur vaut ```x + 5```
 c'est à dire ```0 + 5``` donc désormais ```x``` vaut 5.
@@ -91,7 +91,7 @@ dès sa déclaration, ce qui emboîte les deux premières étapes :
 
     int x = 0;
     
-Voici les différents types de variable que vous pouvez utiliser (liste non
+Voici les différents types de variables que vous pouvez utiliser (liste non
 exhaustive) :
 
 | Mot clé | Description | Taille en octet |
@@ -119,8 +119,8 @@ Ce qui affichera :
 
 ![](Screenshot_2015-07-21_18-21-35.png)
 
-Notez que le type ```bool``` affiche 1 s'il vaut ```true``` sinon il affiche 0. Nous
-verrons par la suite comment utiliser un boolean pour établir des conditions.
+Notez que le type ```bool``` affiche 1 s'il vaut ```true```, sinon il affiche 0.
+Nous verrons par la suite comment utiliser un boolean pour établir des conditions.
 
 Bien sur, nous pouvons utiliser nos variables avec des opérateurs. Ces opérateurs
 nous permettent de calculer un peu tout et n'importe quoi, les voilà :
@@ -133,11 +133,11 @@ nous permettent de calculer un peu tout et n'importe quoi, les voilà :
 | Division | / | ```int x = 10 / 2; // 5``` |
 | Reste de la division (modulo) | % | ```int x = 10 % 3; // 1``` |
 
-Leur utilisation est très simple comme vous le voyez. Dans les exemples fourni,
+Leur utilisation est très simple comme vous le voyez. Dans les exemples fournis,
 on calcule l'opération avec des valeurs fixes mais vous pouvez tout aussi bien
 mettre des variables du même type à la place des nombres.
 
-Chacun de ces opérateur a une variante. Au lieu d'écrire 30 lignes pour
+Chacun de ces opérateurs a une variante. Au lieu d'écrire 30 lignes pour
 l'expliquer, je vais vous le démontrer avec un exemple :
 
     int x = 5;
@@ -146,14 +146,14 @@ l'expliquer, je vais vous le démontrer avec un exemple :
     x *= 8; // Revient à écrire x = x * 8;
     //etc...
     
-Se conclue ainsi le chapitre sur les variables. Gardez bien en tête que ce n'était
+Se conclut ainsi le chapitre sur les variables. Gardez bien en tête que ce n'était
 qu'une très brève introduction et nous verrons les variables plus en détail
 plus tard. Pour l'instant je vous propose d'étudier un nouveau type, les 
 ```string``` !
 
 ### Le petit bonus
 
-Et oui, même en programmation on a des surprises ! Après la syntaxe écourté, je
+Et oui, même en programmation on a des surprises ! Après la syntaxe écourtée, je
 vous propose une syntaxe encore plus courte. Quand vous voulez incrémenter un
 nombre de seulement 1, vous devez écrire ```x = x + 1;``` ou encore mieux
 ```x += 1;``` mais il existe mieux ! Oui, vous pouvez écrire ```++x;``` qui
