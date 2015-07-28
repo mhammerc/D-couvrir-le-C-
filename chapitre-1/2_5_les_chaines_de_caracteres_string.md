@@ -8,10 +8,7 @@ Les ```string``` vous permettront de stocker des chaines de caractères c'est à
 dire des mots, des phrases ou même des romans entier. Leur utilisation est
 tout aussi simple que les autres type que nous avons vu.
 
-Par contre, attention ! Ce n'est **pas** un type primitif. Pour rappel un type
-primitif est un type qui existe de base en C++ sans la moindre action
-supplémentaire. Les ```string``` existe bien de base en C++ mais ont été
-codés en C++ avec les types primitif que nous avons vu précédemment.
+> **Warning** Par contre, attention ! Ce n'est *pas* un type primitif. Pour rappel un type primitif est un type qui existe de base en C++ sans la moindre action supplémentaire. Les ```string``` existent bien de base en C++ mais ont été codés en C++ avec les types primitif que nous avons vu précédemment.
 
 ### Les inclusions
 
