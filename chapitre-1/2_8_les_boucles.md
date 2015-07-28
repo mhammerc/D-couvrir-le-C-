@@ -36,7 +36,7 @@ valide". S'il ne le rentre pas, il va lui demander encore et encore.
 
 > **Hint** ```while``` en anglais se traduit ici par *Tant que*. On peut donc lire cette boucle par *Tant que ```message``` n'est pas égal à "je valide", affiche un texte et je remplis la variable ```message``` par le texte que l'utilisateur entrera.*
 
-m
+&zwnj;
 
 > **Danger** *Mais attention !* Faites bien attention à l'expression que vous entrerez dans la boucle car si elle reste valide à l'infini (donc tout le temps ```true```), vous serez dans une boucle infinie qui ne cessera jamais ! Elle tournera sans jamais s'interrompre. Votre expression, au bout d'un moment, devra
 évaluer à ```false``` au bout d'un moment afin de sortir de la boucle.
