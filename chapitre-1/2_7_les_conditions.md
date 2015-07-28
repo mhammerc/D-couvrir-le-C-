@@ -17,13 +17,13 @@ Voici leur syntaxe :
 
     if(condition)
     {
-        // ...boucl
+        // ...
     }
-    else if(condition2)
+    else if(condition2) // facultatif
     {
         // ...
     }
-    else
+    else // facultatif
     {
         // ...
     }
@@ -98,8 +98,8 @@ Ainsi en pratique voici plusieurs exemples :
     // Le else se lancera que si les précédentes conditions n'ont pas été
     // validées.
 
-*Note : je n'utilise pas d'accents car la console Windows a, de base, un peu
-de mal à les afficher.*
+> **Note** Je n'utilise pas d'accents car la console Windows a, de base, un peu
+de mal à les afficher.
 
 ### Les ```bool```
 
@@ -116,6 +116,8 @@ manières, voyez ci-contre :
     bool e = 80; // True
     bool f = -80; // True
     bool g = a != b; // True
+    bool h = a; // True
+    bool i = !a; // False
     
 Et oui, regardez bien le dernier exemple ! En réalité, les opérateurs de
 comparaisons que nous avons eu plus haut retourne un booléen et vous pouvez donc
