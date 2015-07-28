@@ -27,7 +27,7 @@ C plus plus. Parfois on le nomme aussi cpp. Et dans la foulé, en 1985 il montra
 au monde le C++ en "publiant" le langage ainsi qu'un premier livre expliquant
 comment l'utiliser.
 
-> **Caution** De nombreuses personnes pensent que le C et le C++ sont des langages similaires. C'est **absolument** et **totalement** faux, le C et le C++ sont radicalement différents, surtout plus récemment avec les nouvelles normes du C++.
+> **Warning** De nombreuses personnes pensent que le C et le C++ sont des langages similaires. C'est **absolument** et **totalement** faux, le C et le C++ sont radicalement différents, surtout plus récemment avec les nouvelles normes du C++.
 
 ### La définition du C++ ?
 
