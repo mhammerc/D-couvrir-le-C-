@@ -7,7 +7,7 @@ on peut faire des jeux vidéos, des applications desktop et mobiles. Si vous
 le souhaitez vous pouvez même faire des sites web ou une IA qui vous sert le
 café !
 
-Vous savez que la plupart des gros jeux vidéos AAA sont codés en C++ ?
+> **Hint** Saviez-vous que la plupart des gros jeux vidéos AAA sont codés en C++ ?
 
 Donc oui le C++ est un langage puissant qui offre pleins de possibilités à
 condition de le maîtriser.
