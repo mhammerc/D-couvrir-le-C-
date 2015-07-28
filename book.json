@@ -1,7 +1,6 @@
 {
     "plugins": [
         "code_tomorrow_scheme",
-        "headers",
         "infinitescroll",
         "scrollablecode"
     ],
