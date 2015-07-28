@@ -2,7 +2,8 @@
     "plugins": [
         "code_tomorrow_scheme",
         "infinitescroll",
-        "scrollablecode"
+        "scrollablecode",
+        "comments"
     ],
     "pluginsConfig": {}
 }
