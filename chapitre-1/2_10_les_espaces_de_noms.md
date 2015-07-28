@@ -22,8 +22,7 @@ faire absolument plein de choses. Tous ces outils, pour ne pas "concurrencer"
 vos propres outils ou d'autres outils venant d'un tiers sont rangés dans
 l'espace de nom ```std```.
 
-```std``` est le diminutif de ```standard```. Ce sont les outils *standard* du
-C++, ou de son vrai nom la *librairie standard*.
+> **Hint** ```std``` est le diminutif de ```standard```. Ce sont les outils *standard* du C++, ou de son vrai nom la *librairie standard*.
 
 ### Les deux manières d'accéder à un espace de nom
 
