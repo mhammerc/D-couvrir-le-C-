@@ -32,7 +32,7 @@ apparaître cette fois ci :
 Nous en concluons donc que la syntaxe ```cout << "[UN TEXTE]" << endl;``` permet
 d'afficher du texte à l'écran.
 
-> **Info** *cout* est un terme qui signifie *Console OUT*. En d'autres mots, ce terme permet de sortir des informations depuis l'ordinateur vers l'écran, d'où le sens des flèches. En effet les flèches ramènent le texte que l'on veut afficher vers le cout et donc vers l'écran, en quelque sorte. On appelle ceci un flux.
+*cout* est un terme qui signifie *Console OUT*. En d'autres mots, ce terme permet de sortir des informations depuis l'ordinateur vers l'écran, d'où le sens des flèches. En effet les flèches ramènent le texte que l'on veut afficher vers le cout et donc vers l'écran, en quelque sorte. On appelle ceci un flux.
 
 
 > **Info** Notez que ```endl``` permet de passer à la ligne suivante (*end line*).
