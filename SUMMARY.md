@@ -13,7 +13,7 @@
    * [Les boucles](chapitre-1/2_8_les_boucles.md)
    * [Les fonctions](chapitre-1/2_9_les_fonctions.md)
    * [Les espaces de noms](chapitre-1/2_10_les_espaces_de_noms.md)
-   * [Les tableaux](chapitre-1/2_1_les_tableaux.md)
+   * [Les tableaux](chapitre-1/2_11_les_tableaux.md)
        * [Les tableaux statiques](chapitre-1/2_11_1les_tableaux_statiques.md)
        * Les tableaux dynamiques
    * Encore plus sur les variables
