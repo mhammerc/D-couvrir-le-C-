@@ -70,3 +70,5 @@ espace de nom, par exemple ```cout``` !
 
 Ainsi l'utilisation de ```cout``` avec l'opérateur de portée se fait de cette
 manière : ```std::cout```.
+
+*Nous étudierons la création d'espace de nom dans un futur chapitre.*
