@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Préface](preface.md)
 * [Les bases du C++](chapitre-1/2_0_les_bases_du_c++.md)
    * [Qu'est-ce que le C++ ?](chapitre-1/2_1_quest-ce_que_le_c++.md)
@@ -11,7 +12,7 @@
    * [Les conditions](chapitre-1/2_7_les_conditions.md)
    * [Les boucles](chapitre-1/2_8_les_boucles.md)
    * [Les fonctions](chapitre-1/2_9_les_fonctions.md)
-   * Les espaces de noms
+   * [Les espaces de noms](chapitre-1/2_10_les_espaces_de_noms.md)
    * Les tableaux
        * Les tableaux statiques
        * Les tableaux dynamiques
