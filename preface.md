@@ -20,6 +20,8 @@ Ce livre est écrit dans un français très simple et est à la portée de tous.
 Les seuls pré-requis pour ce livre sont de savoir utiliser un ordinateur de
 manière aisée.
 
+> **Note** Si un problème indépendant au livre intervient lors de votre apprentissage, n'hésitez surtout pas à *googliser* votre problème, peut être vous trouverez la solution.
+
 Que vous n'ayez absolument aucune connaissance en programmation ou que vous
 connaissez déjà le C++, ce livre saura vous satisfaire dans le sens ou il vous
 servira de cours complet ou d'aide mémoire.

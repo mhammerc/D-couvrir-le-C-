@@ -1,44 +1,35 @@
 # Découvrir le C++
-Le C++ est simple, venez le découvrir !
+Venez découvrir le C++ dans ce livre learn-by-doing à la portée de tout le monde ! Jamais apprendre le C++ n'aura été aussi simple !
+
+<!--
 
 > **Info** Info
 
-a
 
 > **Note** Note
 
-a
 
 > **Tag** Tag
 
-a
 
 > **Comment** Comment
 
-a
 
 > **Hint** Hint
 
-a
 
 > **Success** Success
 
-a
 
 > **Warning** Warning
 
-a
 
 > **Caution** Caution
 
-a
 
 > **Danger** Danger
 
-a
 
 > **Quote** Quote
 
-a
-
-<span style="background-color:red;">COUCOU</span>
+-->
