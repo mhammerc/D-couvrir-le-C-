@@ -6,8 +6,7 @@ maintenant nous aimerions dialoguer avec l'utilisateur.
 Par exemple, demandons son nom, demandons ce qu'il fait aujourd'hui, on peut
 demander absolument tout ce que l'on souhaite !
 
-*Ce chapitre reste assez basique et ne traitera pas de l'intégralité de ce 
-sujet.*
+> **Tag** Ce chapitre reste assez basique et ne traitera pas de l'intégralité de ce sujet.
 
 Il existe deux méthodes pour réceptionner des informations depuis l'utilisateur
 dans la console.
