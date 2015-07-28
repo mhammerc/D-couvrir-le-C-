@@ -5,7 +5,7 @@ en rendre compte.
 
 ### Que sont les espaces de noms ?
 
-Imaginez que votre application est contenu dans des boites. Chaque boite est
+Imaginez que votre application est contenue dans des boîtes. Chaque boîte est
 un espace de nom et contient des fonction, des variables, enfin tout ce que vous
 voulez !
 
@@ -17,25 +17,25 @@ la fameuse instruction ```using namespace std;``` !
 
 ### L'espace de nom ```std```
 
-Avec le C++ est fourni un série d'outils plus ou moins utiles qui permettent de
-faire absolument pleins de choses. Tout ces outils, pour ne pas "concurrencer"
-vos propres outils ou d'autres outils venant d'un tierce sont rangés dans
+Avec le C++ est fournie une série d'outils plus ou moins utiles qui permettent de
+faire absolument plein de choses. Tous ces outils, pour ne pas "concurrencer"
+vos propres outils ou d'autres outils venant d'un tiers sont rangés dans
 l'espace de nom ```std```.
 
 ```std``` est le diminutif de ```standard```. Ce sont les outils *standard* du
 C++, ou de son vrai nom la *librairie standard*.
 
-### Les deux manière d'accéder à un espace de nom
+### Les deux manières d'accéder à un espace de nom
 
 Ainsi pour utiliser un espace de nom vous devez écrire ```using namespace```
 suivi de son nom puis d'un ```;``` (car c'est une instruction !). A partir de
-ce point, tout le reste du fichier actuel aura un accès intégral aux fonction
-de l'espace de nom que vous avez inclu. Par exemple ```using namespace std;```
+ce point, tout le reste du fichier actuel aura un accès intégral aux fonctions
+de l'espace de nom que vous avez inclus. Par exemple ```using namespace std;```
 ou ```using namespace sf;``` pour la [SFML](http://www.sfml-dev.org/index-fr.php).
 
 Mais, il existe une autre manière d'accéder à un composant d'un espace de nom,
 via *l'opérateur de portée*. Nous ne l'avons pas encore vu jusqu'ici. Voici un
-code qui devrai vous rappeler des souvenirs : 
+code qui devrait vous rappeler des souvenirs : 
 
     #include <iostream>
     
@@ -71,4 +71,4 @@ espace de nom, par exemple ```cout``` !
 Ainsi l'utilisation de ```cout``` avec l'opérateur de portée se fait de cette
 manière : ```std::cout```.
 
-*Nous étudierons la création d'espace de nom dans un futur chapitre.*
+*Nous étudierons la création d'espaces de noms dans un futur chapitre.*
