@@ -59,8 +59,7 @@ devez clôturer votre fonction avec l'instruction ```return [valeur à retourner
 Par exemple ```return 0;```. Attention, cette instruction terminera la fonction
 en cours, même s'il reste du code à exécuter par la suite.
 
-Si vous ne voulez rien retourner à l'appelant, spécifiez le type ```void``` qui
-signifie *vide* ou *rien* en anglais.
+> **Hint** Si vous ne voulez rien retourner à l'appelant, spécifiez le type ```void``` qui signifie *vide* ou *rien* en anglais.
 
 #### Des exemples !
 
@@ -139,7 +138,6 @@ Cette fonction retourne un entier et ne prend pas de paramètres (enfin nous
 verrons ce cas particulier plus tard). Cette fonction est spéciale car votre
 OS l'appelle automatiquement quand vous voulez lancer votre programme C++.
 
-La fonction retourne un entier, mais par convention, on retourne 0 la plupart
-du temps, ou rien du tout ce qui n'est pas très correct en vérité.
+> **Note** La fonction retourne un entier, mais par convention, on retourne 0 la plupart du temps, ou rien du tout ce qui n'est pas très correct en vérité. L'entier retourné permet à l'OS de savoir si l'application c'est bien déroulé ou non.
 
-Nous étudierons cette fonction plus en long et en large plus tard.
+Nous étudierons cette fonction spéciale en long et en large plus tard.
