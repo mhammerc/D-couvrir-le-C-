@@ -3,7 +3,8 @@
         "code_tomorrow_scheme",
         "infinitescroll",
         "scrollablecode",
-        "comments"
+        "comments",
+        "richquotes"
     ],
     "pluginsConfig": {}
 }
