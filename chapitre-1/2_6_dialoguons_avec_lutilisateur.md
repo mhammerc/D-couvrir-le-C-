@@ -34,9 +34,9 @@ Nous avons utilisé jusque ici le fameux ```cout``` (qui pour rappel se prononce
     }
     
 Ici, deux découvertes. Alors oui, on peux décomposer un ```cout``` sur plusieurs
-lignes comme je viens de le faire. N'oubliez pas, c'est le ```;``` qui délimite
-la fin d'une instruction (dans le cas présent c'est l'instruction ```cout```).
-Sauter une ligne ne délimitera jamais une instruction !
+lignes comme je viens de le faire. 
+
+> **Warning** N'oubliez pas, c'est le ```;``` qui délimite la fin d'une instruction (dans le cas présent c'est l'instruction ```cout```). Sauter une ligne ne délimitera jamais une instruction !
 
 Ensuite, on peut voir le fameux ```cin```. Rien de plus simple vous le voyez,
 il suffit d'écrire ```cin``` avec les chevrons dans le sens opposé de
