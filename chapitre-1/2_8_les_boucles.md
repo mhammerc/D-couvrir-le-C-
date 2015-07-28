@@ -34,15 +34,9 @@ valide (```true```), le contenu du ```while``` s'exécutera (le code entre le ``
 Ce programme va se contenter de demander à l'utilisateur de rentrer le texte "je
 valide". S'il ne le rentre pas, il va lui demander encore et encore.
 
-```while``` en anglais se traduit ici par **Tant que**. On peut donc lire cette
-boucle par *Tant que ```message``` n'est pas égal à "je valide", affiche un 
-texte et je remplis la variable ```message``` par le texte que l'utilisateur
-entrera.*
+> **Hint** ```while``` en anglais se traduit ici par *Tant que*. On peut donc lire cette boucle par *Tant que ```message``` n'est pas égal à "je valide", affiche un texte et je remplis la variable ```message``` par le texte que l'utilisateur entrera.*
 
-**Mais attention !** Faites bien attention à l'expression que vous entrerez dans
-la boucle car si elle reste valide à l'infini (donc tout le temps ```true```),
-vous serez dans une boucle infinie qui ne cessera jamais ! Elle tournera sans
-jamais s'interrompre. Votre expression, au bout d'un moment, devra
+> **Danger** *Mais attention !* Faites bien attention à l'expression que vous entrerez dans la boucle car si elle reste valide à l'infini (donc tout le temps ```true```), vous serez dans une boucle infinie qui ne cessera jamais ! Elle tournera sans jamais s'interrompre. Votre expression, au bout d'un moment, devra
 évaluer à ```false``` au bout d'un moment afin de sortir de la boucle.
 
 ### La boucle ```do...while```
