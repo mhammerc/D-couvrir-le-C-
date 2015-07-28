@@ -24,6 +24,9 @@ Venez découvrir le C++ dans ce livre learn-by-doing à la portée de tout le mo
 > **Warning** Warning
 
 
+> **Caution** Caution
+
+
 > **Danger** Danger
 
 
