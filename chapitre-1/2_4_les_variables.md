@@ -21,10 +21,7 @@ personnage principal a un nombre de points de vie qui peut *varier*. Nous allons
 alors créer une variable pour sauvegarder ce nombre de points de vie pour 
 ensuite l'afficher à l'écran.
 
-Techniquement parlant, les variables ne sont pas forcément stockées dans la
-mémoire vive, étant donné que les processeurs modernes possèdent des registres
-relativement grands qui agissent comme de la mémoire vive, mais encore plus 
-rapide.
+> **Comment** Techniquement parlant, les variables ne sont pas forcément stockées dans la mémoire vive, étant donné que les processeurs modernes possèdent des registres relativement grands qui agissent comme de la mémoire vive, mais encore plus  rapide.
 
 ### Et en C++, ça donne quoi ?
 
@@ -185,3 +182,5 @@ aura exactement le même effet ! Ainsi voyez l'exemple suivant :
     cout << x << endl; // 10
     
 Vous pourrez observer que ```x``` vaut bien 10.
+
+> **Hint** ```x++;``` fonctionne aussi mais a un comportement légèrement différent. Nous étudierons cette différence de comportement dans un futur chapitre.
