@@ -1,7 +1,8 @@
 {
     "plugins": [
         "code_tomorrow_scheme",
-        "headers"
+        "headers",
+        "infinitescroll"
     ],
     "pluginsConfig": {}
 }
