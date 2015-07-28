@@ -11,8 +11,7 @@ des variables.
 C'est une chose que vous allez aimer. Un concept que vous allez adorer. Une
 notion que vous [allez] utiliser tous les jours. Oui.
 
-> Une variable permet de stocker une information. Une variable possède une
-> durée de vie et est le plus généralement stockée dans la mémoire vive.
+> **Quote** Une variable permet de stocker une information. Une variable possède une durée de vie et est le plus généralement stockée dans la mémoire vive.
 
 Tout simplement !
 
