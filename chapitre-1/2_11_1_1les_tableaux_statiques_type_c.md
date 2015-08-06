@@ -41,3 +41,30 @@ nom du tableau et ```SIZE``` la taille du tableau (le nombre d'éléments).
 
 Notez les crochets qui entourent ```SIZE``` juste après le nom de la variable.
 C'est le fameux opérateur ```[]```.
+
+```SIZE``` est une variable et doit être une variable *constante*. C'est une
+notion que nous n'avons pas encore vu, contentez vous de savoir qu'une
+variable constante ne peut être modifié et se crée de cette manière :
+
+    int const size = 8;
+    int x[size];
+    
+```SIZE``` doit être constante car la taille du tableau est constante et que
+cette variable nous sera utile encore plus tard.
+
+> **Hint** Pour déclarer une variable constante, vous devez utiliser la syntaxe
+suivante : ```TYPE const NAME;```.
+
+#### L'initialisation !
+
+Oui, comme une variable classique il ne faut pas oublier d'initialiser chaque
+éléments de notre tableau, sinon votre application subira des comportements
+indéfinis. Il existe deux méthodes pour initialiser notre tableau.
+
+##### Avec la liste d'initialisation
+
+C'est la méthode la plus simple mais la moins flexible, on peut utiliser la liste
+d'initialisation. Voici un exemple :
+
+    int const size = 3; // 3 éléments dans le tableau
+    int tableau[size] = { 0, 1, 2 };
