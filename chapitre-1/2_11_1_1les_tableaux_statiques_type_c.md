@@ -78,3 +78,9 @@ un nombre), il suffit de ne mettre aucune valeur dans la liste d'initialisation
 (c'est à dire ```int tableau[size] = {};```).
 
 ##### En itérant le tableau
+
+Vous vous souvenez de la boucle ```for``` ? Oui, cette boucle basé sur un système de
+comptage ! Eh bien nous pouvons l'acceuillir à bras ouvert ici ! Elle est
+parfaitement adapté pour itérer à travers le tableau.
+
+Itérer est un nouveau terme qui signifie
