@@ -97,4 +97,14 @@ familière :
     // On effectue des actions, des calculs...
     
     for(int i = 0; i < size; ++i)
-        std::cout << x[i] << std::endl;
+        std::cout << "Key number " << i << " has the element: " << x[i] << std::endl;
+        
+Le principe est simple ici. On crée un tableau ```x``` de taille 5. Ensuite on
+crée un compteur ```i``` qui est compris entre 0 et 5 exclus. Ce compteur ```i```
+représente donc l'élément que nous sommes en train d'itérer. On accède à un élément
+avec l'opérateur ```[]``` encore une fois en indiquant entre les crochets l'index
+(le numéro) de l'élément que nous voulons.
+
+Nous initialisons chacun des éléments du tableau à la valeur ```i * 2``` (0, 2, 4, 6, 8).
+Après on peut imaginer qu'on fait des calculs, des choses sur le tableau et enfin on
+affiche l'intégralité du tableau en itérant dessus.
