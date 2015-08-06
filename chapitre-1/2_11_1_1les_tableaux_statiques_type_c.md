@@ -117,3 +117,10 @@ seront numérotés de 0 à 9. L'élément numéro 10 n'existera pas.
 
 Vous ne devez jamais utiliser un tableau avec un index supérieur à sa taille car
 votre application pourra (encore une fois) avoir des comportements indéfinis.
+
+#### Accéder à un élément
+
+Vous l'aurez compris, pour accéder à un élément dans le tableau il faut utiliser
+l'opérateur ```[index]```. ```index``` peut être un nombre ou une variable représentant
+un entier. ```index``` ne peut bien sur pas dépasser la taille du tableau ou être inférieur
+à zéro.
