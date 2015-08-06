@@ -107,4 +107,13 @@ avec l'opérateur ```[]``` encore une fois en indiquant entre les crochets l'ind
 
 Nous initialisons chacun des éléments du tableau à la valeur ```i * 2``` (0, 2, 4, 6, 8).
 Après on peut imaginer qu'on fait des calculs, des choses sur le tableau et enfin on
-affiche l'intégralité du tableau en itérant dessus.
+affiche l'intégralité du tableau en itérant dessus. Vous devriez obtenir ceci :
+
+![](2_11_1_1_iteration.png)
+
+Et c'est ici que nous pouvons remarquer un détail **très important**. Le numérotage
+des éléments commence à **0** dans un tableau. Donc, si vous avez 10 éléments, ceux-ci
+seront numérotés de 0 à 9. L'élément numéro 10 n'existera pas.
+
+Vous ne devez jamais utiliser un tableau avec un index supérieur à sa taille car
+votre application pourra (encore une fois) avoir des comportements indéfinis.
