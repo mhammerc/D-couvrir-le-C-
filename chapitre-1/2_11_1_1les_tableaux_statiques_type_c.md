@@ -84,6 +84,11 @@ comptage ! Eh bien nous pouvons l'acceuillir à bras ouvert ici ! Elle est
 parfaitement adapté pour itérer à travers le tableau.
 
 Itérer est un nouveau terme qui signifie **parcourir un tableau** dans le cas présent.
-Ici on va itérer un tableau d'entiers qui contient ```size``` éléments afin de lui
+Ici on va itérer un tableau d'entiers ```x``` qui contient ```size``` éléments afin de lui
 assigner une valeur. Voici la procédure avec la boucle ```for``` qui devrai vous être
 familière : 
+
+    int const size = 5;
+    int x[size];
+    
+    for(int i = 0; i < size; i++
