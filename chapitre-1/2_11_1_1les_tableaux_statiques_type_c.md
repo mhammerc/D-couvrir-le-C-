@@ -91,4 +91,10 @@ familière :
     int const size = 5;
     int x[size];
     
-    for(int i = 0; i < size; i++
+    for(int i = 0; i < size; ++i)
+        x[i] = i * 2;
+        
+    // On effectue des actions, des calculs...
+    
+    for(int i = 0; i < size; ++i)
+        std::cout << x[i] << std::endl;
