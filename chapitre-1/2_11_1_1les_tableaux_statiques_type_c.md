@@ -68,3 +68,13 @@ d'initialisation. Voici un exemple :
 
     int const size = 3; // 3 éléments dans le tableau
     int tableau[size] = { 0, 1, 2 };
+    
+Une liste d'initialisation pour des valeurs (car il existe d'autres type de liste
+d'initialisation) se construit de cette manière : on ouvre le ```{```, on insère
+les valeurs séparés par une virgule puis on ferme le ```}```.
+
+> **Note** Si vous voulez initialiser tout votre tableau à la valeur par défaut (```0``` pour
+un nombre), il suffit de ne mettre aucune valeur dans la liste d'initialisation
+(c'est à dire ```int tableau[size] = {};```).
+
+##### En itérant le tableau
