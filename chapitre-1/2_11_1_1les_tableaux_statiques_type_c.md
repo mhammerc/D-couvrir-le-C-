@@ -124,3 +124,16 @@ Vous l'aurez compris, pour accéder à un élément dans le tableau il faut util
 l'opérateur ```[index]```. ```index``` peut être un nombre ou une variable représentant
 un entier. ```index``` ne peut bien sur pas dépasser la taille du tableau ou être inférieur
 à zéro.
+
+Ainsi, voici plusieurs méthodes à suivre pour accéder à l'élément numéro 4 d'un tableau :
+
+    int const size = 10;
+    int x[size] = {};
+    
+    cout << x[4] << endl;
+    cout << x[3 + 1] << endl;
+    
+    int three = 3;
+    cout << x[three + 1] << endl;
+    
+Rien de bien compliqué, vous le voyez bien ! Maintenant, voyons ces même tableaux mais en version C++.
