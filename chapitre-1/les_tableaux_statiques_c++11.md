@@ -2,13 +2,15 @@
 
 #### C++11
 
-Qu'est-ce que le C++11 ? Excellente question. Le C++ est un langage en constante évolution, et des *mises à jours* officielles sont à rythme régulier crées. La dernière mise à jour majeure est le C++11, sortie en 2011. La dernière mise à jour qui est mineur est le C++14, sortie en 2014. La prochaine grosse mise à jour qui apportera plein de nouveautés sortira en 2017 avec le C++17.
+Qu'est-ce que le C++11 ? Excellente question. Le C++ est un langage en constante évolution, et des *mises à jours* officielles sont régulièrement créés. La dernière mise à jour majeure est le C++11, sortie en 2011. Une autre mise à jour, mineure celle ci, a été établie en 2014, c'est le C++14. La prochaine grosse mise à jour qui apportera plein de nouveautés sortira en 2017 avec le C++17.
 
-Le C++11 a apporté de très nombreuses choses, dont les ```array```. Le C++11, bien qu'assez ancien maintenant, n'est peut être pas sur votre machine si vous n'avais pas vos logiciels à jours. Si ce chapitre ne fonctionne pas chez vous, c'est que le C++11 n'est pas activé chez vous. Je vous laisse donc le soin de chercher sur Internet comment l'activer sur notre plateforme.
+Le C++11 a apporté de très nombreuses choses, dont les ```array```. 
+
+Notez que pour pouvoir profiter du C++11, il faut avoir des logiciels récents. En effet, seul les compilateur récents peuvent compiler un code C++11. Mais ne vous inquiétez pas, nous sommes aujourd'hui en 2016 et je doute que votre compilateur n'est pas compatible avec le C++11.
 
 #### Les mêmes propriétés que les tableaux statiques du C
 
-Les tableaux statiques du C++ proposent les même propriété que celle du C, avec des fonctionnalités en plus. Le nombre d'élément inclu au tableau est **fixe**, vous ne pourez pas rajouter ou supprimer un élément. Le type d'élément que contient le tableau est **fixe** lui aussi, si vous y mettez des ```int```, ce sera toujours des ```int```.
+Les tableaux statiques du C++ proposent les même propriété que celle du C, avec des fonctionnalités en plus. Le nombre d'élément inclus au tableau est **fixe**, vous ne pourrez pas rajouter ou supprimer un élément. Le type d'élément que contient le tableau est **fixe** lui aussi, si vous y mettez des ```int```, ce sera toujours des ```int```.
 
 > **Hint** Les tableaux statiques du C++ s'utilisent de la même manière que ceux du C, mis à part les différences que nous allons étudier ici.
 
