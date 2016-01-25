@@ -11,37 +11,37 @@ Nous allons voir le tableau dynamique le plus simple, le ```vector```. Il en exi
 
 Le ```vector``` est très simple d'utilisation, voici un premier exemple déjà très complet :
 
-  #include <iostream>
-#include <vector>
+    #include <iostream>
+    #include <vector>
 
-int main()
-{
-  std::vector<int> bullets;
+    int main()
+    {
+      std::vector<int> bullets;
   
-  // Imaginons que le joueur tire 9 boules
-  for (int i = 0; i < 9; ++i)
-    bullets.push_back(i);
+      // Imaginons que le joueur tire 9 boules
+      for (int i = 0; i < 9; ++i)
+      bullets.push_back(i);
 
-  std::cout << "Le joueur a tire " << bullets.size() << " boules : " << std::endl;
+      std::cout << "Le joueur a tire " << bullets.size() << " boules : " << std::endl;
 
-  for (int i = 0; i < bullets.size(); ++i)
-  {
-    std::cout << "\t- Boule " << bullets[i] << std::endl;
-  }
+      for (int i = 0; i < bullets.size(); ++i)
+      {
+        std::cout << "\t- Boule " << bullets[i] << std::endl;
+      }
 
-  // Le joueur joue...
+      // Le joueur joue...
 
-  // Imaginons que le joueur retire 3 boules
-  for (int i = 0; i < 3; ++i)
-    bullets.push_back(bullets.size());
+      // Imaginons que le joueur retire 3 boules
+      for (int i = 0; i < 3; ++i)
+        bullets.push_back(bullets.size());
 
-  std::cout << std::endl << "Le joueur a tire " << bullets.size() << " boules : " << std::endl;
+      std::cout << std::endl << "Le joueur a tire " << bullets.size() << " boules : " << std::endl;
 
-  for (int i = 0; i < bullets.size(); ++i)
-  {
-    std::cout << "\t- Boule " << bullets[i] << std::endl;
-  }
+      for (int i = 0; i < bullets.size(); ++i)
+      {
+        std::cout << "\t- Boule " << bullets[i] << std::endl;
+      }
 
-  std::cin.ignore();
-}
+      std::cin.ignore();
+    }
 
