@@ -1,6 +1,8 @@
 
 ### Les tableaux dynamiques
 
+#### La mise en bouche
+
 Imaginez, vous êtes un développeur dans une jeune startup qui est en train de créer un jeu révolutionnaire. Dans ce jeu, vous contrôlez un personnage qui possède une seule et unique arme : un lanceur de boules.
 
 Bien entendu, le joueur a la possibilité de tirer avec l'arme. Mais que ce passe t'il lorsque qu'il presse la détente ? Une boule est tirée. Bien entendu, chaque boule réagit à la physique et doit donc rester dans le monde virtuel.
@@ -52,6 +54,8 @@ Voici le résultat dans la console :
 
 J'en convient, il y a, ici, beaucoup de nouvelles choses. Mais ne vous inquiétez pas, rien d'insurmontable.
 
+#### Et dans les détails ?
+
 Premièrement, comme toujours, on inclus la fonction que l'on souhaite :
 
     #include <vector>
@@ -72,3 +76,35 @@ Une fois fait, on fait le point dans la console et on affiche le nombre de boule
 
  > **Info** Le ```\t``` dans la chaîne de texte que nous affichons représente simplement une tabulation. En effet, lorsque la console affiche ce caractère, selon les paramètres du système, elle effectue une tabulation plus ou moins grande. C'est pratique pour hiérarchiser les informations.
 
+La fonction ```size()``` permet d'obtenir sa taille. Utilisez la comme suit :
+
+    int size = bullets.size();
+    
+Ainsi, ```size``` aura comme valeur le nombre d'éléments que contient le tableau.
+
+#### Les fonctions push_back() et pop_back()
+
+La fonction ```push_back()``` est le coeur même d'un vecteur. En effet, cette fonction permet d'ajouter un élément au tableau. Cet élément sera positionné à la dernière place, c'est à dire :
+
+    int a = 5;
+    int b = 10;
+    
+    vector<int> v;
+    
+    v.push_back(a);
+    // a est à la position v.size() - 1, soit à la position 0
+    
+    v.push_back(b);
+    // b est à la position v.size() - 1, soit à la position 1
+    
+Au contraire, la fonction ```pop_back()```, supprime le dernier élément.
+
+### Les manipulations d'un vecteur
+
+Un vecteur peut être manipulé de très nombreuses manières. Nous allons voir celles que nous avons pas déjà vu.
+
+#### La fonction ```at()```
+
+Il existe deux moyens d'accéder à un élément avec un vecteur. Vous pouvez soit utiliser l'opérateur ```[]```, de cette manière :
+
+    
