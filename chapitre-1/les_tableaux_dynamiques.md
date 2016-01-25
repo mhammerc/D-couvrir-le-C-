@@ -45,6 +45,11 @@ Le ```vector``` est très simple d'utilisation, voici un premier exemple déjà 
 
 Nous n'avons bien sur pas un jeu vidéo ici, mais c'est tout comme. Imaginez donc que le joueur joue et que à deux reprise il tire des boules. La première fois, il tire 9 boules, et la seconde fois il tire 3 boules.
 
+Voici le résultat dans la console :
+
+![](vecteur.png)
+*Oui bon c'est vrai, j'ai changé d'OS et de logiciel. Mais chut :p*
+
 J'en convient, il y a, ici, beaucoup de nouvelles choses. Mais ne vous inquiétez pas, rien d'insurmontable.
 
 Premièrement, comme toujours, on inclus la fonction que l'on souhaite :
