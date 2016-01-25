@@ -16,18 +16,18 @@ Le ```vector``` est très simple d'utilisation, voici un premier exemple déjà 
 
     int main()
     {
-      std::vector<int> bullets;
+      std::vector<int> bullets; // La taille du tableau est 0
   
       // Imaginons que le joueur tire 9 boules
       for (int i = 0; i < 9; ++i)
-      bullets.push_back(i);
+        bullets.push_back(i);
 
       std::cout << "Le joueur a tire " << bullets.size() << " boules : " << std::endl;
 
       for (int i = 0; i < bullets.size(); ++i)
       {
         std::cout << "\t- Boule " << bullets[i] << std::endl;
-      }
+      } // La taille du tableau est 9
 
       // Le joueur joue...
 
@@ -40,8 +40,7 @@ Le ```vector``` est très simple d'utilisation, voici un premier exemple déjà 
       for (int i = 0; i < bullets.size(); ++i)
       {
         std::cout << "\t- Boule " << bullets[i] << std::endl;
-      }
-
-      std::cin.ignore();
+      } // La taille du tableau est 9 + 3 = 12
     }
 
+Nous n'avons bien sur pas un jeu vidéo ici, mais c'est tout comme. Imaginez donc que le joueur joue et que à deux reprise il tire des boules. La première fois, il tire 9 boules, et la seconde fois il tire 3 boules.
