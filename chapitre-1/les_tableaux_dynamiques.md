@@ -65,3 +65,8 @@ La création et l'initialisation d'un vecteur est tout à fait similaire à un t
 Contrairement à ce que nous avons vu jusqu'ici, pas besoin de spécifier de taille ! Et oui, ce tableau a une taille variable et est donc vide à la base il n'attend qu'à être rempli.
 
 Entre les <>, vous devez insérer le type que contiendra le vecteur, et, pour rappel, il ne pourra enregistrer que ce type précis de données.
+
+Voyons maintenant ce qu'il se passe dans le code étape par étape. Premièrement, on simule le joueur qui tire 9 boules. Pour ce faire ont fait une boucle comme nous avons vu dans un précédent chapitre, qui ajoute 9 boules dans le tableau. Ici, les boules sont en fait des ```int```, représentant le numéro de la boule.
+
+Une fois fait, on fait le point dans la console et on affiche le nombre de boules puis on itère le tableau afin d'afficher le numéro de chacune des boules.
+
