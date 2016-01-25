@@ -17,7 +17,7 @@
        * [Les tableaux statiques](chapitre-1/2_11_1les_tableaux_statiques.md)
            * [Les tableaux statiques type C](chapitre-1/2_11_1_1les_tableaux_statiques_type_c.md)
            * [Les tableaux statiques C++11](chapitre-1/les_tableaux_statiques_c++11.md)
-       * Les tableaux dynamiques
+       * [Les tableaux dynamiques](chapitre-1/les_tableaux_dynamiques.md)
    * Encore plus sur les variables
        * Les variables 2
        * Les références
