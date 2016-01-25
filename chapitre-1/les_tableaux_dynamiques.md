@@ -99,6 +99,21 @@ La fonction ```push_back()``` est le coeur même d'un vecteur. En effet, cette f
     
 Au contraire, la fonction ```pop_back()```, supprime le dernier élément.
 
+#### La liste d'initialisation
+
+Voici une autre syntaxe pour initialiser un vecteur :
+
+    vector<int> v = { 1, 2, 3, 4, 5 };
+    v.size(); // 5
+
+Comme vous le voyez, on peut déclarer un vecteur puis l'initialiser avec des valeurs de manière assez élégante. La syntaxe est la suivante :
+
+    vector<TYPE> NAME = { VALUES };
+    
+Vous savez déjà remplir ```TYPE``` et ```NAME```. L'ajout cette fois ci est ```VALUES```, où vous pouvez insérer toutes les valeurs que vous voulez, séparé par une ```,```.
+
+
+
 ### Les manipulations d'un vecteur
 
 Un vecteur peut être manipulé de très nombreuses manières. Nous allons voir celles que nous avons pas déjà vu.
@@ -106,5 +121,17 @@ Un vecteur peut être manipulé de très nombreuses manières. Nous allons voir 
 #### La fonction ```at()```
 
 Il existe deux moyens d'accéder à un élément avec un vecteur. Vous pouvez soit utiliser l'opérateur ```[]```, de cette manière :
+
+    std::vector<int> v = { 1, 2, 3, 4, 5 };
+    std::cout << v[3] << std::endl;
+    
+Ce qui affichera ```4```. Mais que se passe t'il si le nombre que vous entrez entre les ```[]``` est trop grand ? Soit votre application plante, soit elle va avoir des comportements indéterminés.
+
+Pour pallier ce problème, nous avons la fonction ```at()``` qui s'utilise comme suit :
+
+    std::vector<int> v = { 1, 2, 3, 4, 5 };
+    std::cout << v.at(3) << std::endl;
+    
+Cela affichera aussi ```4```. Vous devez mettre en paramètre (c'est à dire entre les parenthèses) le numéro de l'élément que vous souhaitez accéder. Si vous mettez un nombre trop grand ici, l'application ne plantera pas, une exception sera émise. Nous n'avons pas encore vu la gestion des exceptions donc contentez vous de retenir que les ```[]``` sont très dangereux si vous mettez un nombre trop grand alors que la fonction ```at()``` est sécurisée.
 
     
