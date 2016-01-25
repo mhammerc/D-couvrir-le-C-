@@ -122,15 +122,15 @@ Un vecteur peut être manipulé de très nombreuses manières. Nous allons voir 
 
 Il existe deux moyens d'accéder à un élément avec un vecteur. Vous pouvez soit utiliser l'opérateur ```[]```, de cette manière :
 
-    std::vector<int> v = { 1, 2, 3, 4, 5 };
-    std::cout << v[3] << std::endl;
+    vector<int> v = { 1, 2, 3, 4, 5 };
+    cout << v[3] << endl;
     
 Ce qui affichera ```4```. Mais que se passe t'il si le nombre que vous entrez entre les ```[]``` est trop grand ? Soit votre application plante, soit elle va avoir des comportements indéterminés.
 
 Pour pallier ce problème, nous avons la fonction ```at()``` qui s'utilise comme suit :
 
-    std::vector<int> v = { 1, 2, 3, 4, 5 };
-    std::cout << v.at(3) << std::endl;
+    vector<int> v = { 1, 2, 3, 4, 5 };
+    cout << v.at(3) << endl;
     
 Cela affichera aussi ```4```. Vous devez mettre en paramètre (c'est à dire entre les parenthèses) le numéro de l'élément que vous souhaitez accéder. Si vous mettez un nombre trop grand ici, l'application ne plantera pas, une exception sera émise. Nous n'avons pas encore vu la gestion des exceptions donc contentez vous de retenir que les ```[]``` sont très dangereux si vous mettez un nombre trop grand alors que la fonction ```at()``` est sécurisée.
 
@@ -140,12 +140,12 @@ Ces deux fonctions sont très simples. La fonction ```front()``` permet d'accéd
 
 #### Les fonctions ```empty()``` et ```clear()```
 
-Au lieu d'utiliser une condition avec la fonction ```size``` pour savoir si le vecteur est vide ou non, vous pouvez utiliser ```empty()```. Ces deux codes produiront la même chose :
+Au lieu d'utiliser une condition avec la fonction ```size()``` pour savoir si le vecteur est vide ou non, vous pouvez utiliser ```empty()```. Ces deux codes produiront la même chose :
 
     vector<int> v;
-    std::cout << v.size() == 0 << std::endl; // Affichera 1
+    cout << v.size() == 0 << endl; // Affichera 1
     
-    std::cout << v.empty() << std::endl; // Affichera 1
+    cout << v.empty() << endl; // Affichera 1
     
 Un peu par analogie, la fonction ```clear()``` va se contenter de vider tout le tableau. Faites très attention à son usage, son action est irréversible !
 
