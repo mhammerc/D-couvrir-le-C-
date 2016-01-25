@@ -44,3 +44,19 @@ Le ```vector``` est très simple d'utilisation, voici un premier exemple déjà 
     }
 
 Nous n'avons bien sur pas un jeu vidéo ici, mais c'est tout comme. Imaginez donc que le joueur joue et que à deux reprise il tire des boules. La première fois, il tire 9 boules, et la seconde fois il tire 3 boules.
+
+J'en convient, il y a, ici, beaucoup de nouvelles choses. Mais ne vous inquiétez pas, rien d'insurmontable.
+
+Premièrement, comme toujours, on inclus la fonction que l'on souhaite :
+
+    #include <vector>
+    
+A partir de maintenant, je vais appeler le ```vector``` un vecteur.
+
+La création et l'initialisation d'un vecteur est tout à fait similaire à un tableau statique en C++. Voici la syntaxe :
+
+    vector<TYPE> NAME;
+    
+Contrairement à ce que nous avons vu jusqu'ici, pas besoin de spécifier de taille ! Et oui, ce tableau a une taille variable et est donc vide à la base il n'attend qu'à être rempli.
+
+Entre les <>, vous devez insérer le type que contiendra le vecteur, et, pour rappel, il ne pourra enregistrer que ce type précis de données.
