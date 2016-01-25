@@ -70,3 +70,5 @@ Voyons maintenant ce qu'il se passe dans le code étape par étape. Premièremen
 
 Une fois fait, on fait le point dans la console et on affiche le nombre de boules puis on itère le tableau afin d'afficher le numéro de chacune des boules.
 
+ **Info** Le ```\t``` dans la chaîne de texte que nous affichons représente simplement une tabulation. En effet, lorsque la console affiche ce caractère, selon les paramètres du système, elle effectue une tabulation plus ou moins grande. C'est pratique pour hiérarchiser les informations.
+
