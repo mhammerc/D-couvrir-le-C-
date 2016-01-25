@@ -134,4 +134,20 @@ Pour pallier ce problème, nous avons la fonction ```at()``` qui s'utilise comme
     
 Cela affichera aussi ```4```. Vous devez mettre en paramètre (c'est à dire entre les parenthèses) le numéro de l'élément que vous souhaitez accéder. Si vous mettez un nombre trop grand ici, l'application ne plantera pas, une exception sera émise. Nous n'avons pas encore vu la gestion des exceptions donc contentez vous de retenir que les ```[]``` sont très dangereux si vous mettez un nombre trop grand alors que la fonction ```at()``` est sécurisée.
 
+#### Les fonctions ```front()``` et ```back()```
+
+Ces deux fonctions sont très simples. La fonction ```front()``` permet d'accéder au premier élément, alors que la fonction ```back()``` permet d'accéder au dernier élément.
+
+#### Les fonctions ```empty()``` et ```clear()```
+
+Au lieu d'utiliser une condition avec la fonction ```size``` pour savoir si le vecteur est vide ou non, vous pouvez utiliser ```empty()```. Ces deux codes produiront la même chose :
+
+    vector<int> v;
+    std::cout << v.size() == 0 << std::endl; // Affichera 1
+    
+    std::cout << v.empty() << std::endl; // Affichera 1
+    
+Un peu par analogie, la fonction ```clear()``` va se contenter de vider tout le tableau. Faites très attention à son usage, son action est irréversible !
+
+Beaucoup d'autres choses sont possibles avec les vecteur. Mais nous les verront dans un prochain chapitre ! Maintenant, il est temps pour voir de découvrir la vérité sur les variables ! A l'abordage moussaillons !
     
