@@ -110,9 +110,9 @@ Comme vous le voyez, on peut déclarer un vecteur puis l'initialiser avec des va
 
     vector<TYPE> NAME = { VALUES };
     
-Vous savez déjà remplir ```TYPE``` et ```NAME```. L'ajout cette fois ci est ```VALUES```, où vous pouvez insérer toutes les valeurs que vous voulez, séparé par une ```,```.
+Vous savez déjà remplir ```TYPE``` et ```NAME```. L'ajout cette fois ci est ```VALUES```, où vous pouvez insérer toutes les valeurs que vous voulez (au moins une), séparé par une ```,```.
 
-
+> **Hint** Vous pouvez aussi écrire ```vector<int> v = {};```. C'est tout à fait légal (le compilateur l'accepte) mais est inutile car c'est la même chose que ```vector<int> v;```.
 
 ### Les manipulations d'un vecteur
 
