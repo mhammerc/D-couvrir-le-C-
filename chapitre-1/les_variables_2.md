@@ -92,3 +92,25 @@ Un nombre **signé** est un nombre qui peut être négatif. Un nombre **non sign
 
 Prenons l'exemple du nombre entier ```int```. Celui-ci a ```4``` octets, ce qui fait ```4 * 8 = 32``` bits (un octet = 8 bits). Ainsi, un ```int``` non signé peut aller jusque ```2^32 - 1 = 4'294'967'295``` ! Cela fait beaucoup tout de même !
 
+> **Note** Nous soustrayons 1 dans le calcul car nous avons ```2^n``` combinaisons différentes. Le 0 étant inclus dans cette liste de combinaisons, nous devons alors le prendre en compte. Ce qui fait que la limites d'un nombre non signé est ```2^n - 1``` où ```n``` est le nombre de bits.
+
+Les limites pour un nombre signé (et pouvant donc être négatif) sont : 
+
+- ```-((2^16 / 2) - 1)```
+- ```(2^16 / 2) - 1```
+
+Rien de compliqué, il suffit de couper la poire en deux, et d'en mettre une moitié avant 0 et l'autre après 0. Ainsi, voici un nouveau tableau listant les types numériques du C++ avec leurs limites :
+
+
+| Mot clé | Limites | Taille en octet |
+| -- | -- | -- |
+| signed long | -9'223'372'036'854'775'807 jusque 9'223'372'036'854'775'807 | 8 |
+| unsigned long | 0 jusque 18'446'744'073'709'551'615 | 8 |
+| signed int | -2'147'483'647 jusque 2'147'483'647 | 4 |
+| unsigned int | 0 jusque 4'294'967'295 | 4 |
+| signed short | -32'767 jusque 32'767 | 2 |
+| unsigned short | 0 jusque 65'535 | 2 |
+| signed char | -127 jusque 127 | 1 |
+| unsigned char |  0 jusque 255 | 1 |
+
+Comme vous le voyez nous atteignons de très gros nombre, au moins cela vous laisse la liberté de construire de grand nombre sans trop vous inquiéter des limites.
