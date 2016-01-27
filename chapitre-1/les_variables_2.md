@@ -122,3 +122,7 @@ Voici comment signer ou empêcher la signature d'une variable :
     int a; // Nombre entier signé
     signed a; // Nombre entier signé
     unsigned a; // Nombre entier non signé
+    
+> **Warning** Si jamais une de vos variables dépasse l'une de ses limites, se produit alors ce que nous appelons un *overflow*. Cela ne va pas faire planter votre logiciel, votre nombre va simplement reprendre continuer d'évoluer en repartant du début ! Par exemple, si vous avez un ```signed char``` qui vaut ```127``` et que vous lui ajoutez ```1```, alors il vaudra ```-127```.
+
+Bon, c'est vrai. J'avoue. Il y avait beaucoup de technique dans ce chapitre ! J'espère que vous êtes toujours avec moi car nous allons maintenant parler d'adresse mémoires et de références ! Allons-y !
