@@ -72,3 +72,23 @@ Globalement, les différentes portées qui existent dans le C++, ce sont les fon
 
 Voici pour rappel le tableau que je vous ai présenté dans le premier chapitre sur les variables :
 
+| Mot clé | Description | Taille en octet |
+| -- | -- | -- |
+| long | Un très grand nombre entier | 8 |
+| int | Un nombre entier | 4 |
+| short | Un petit nombre entier | 2 |
+| char | Représente un caractère ASCII ou un tout petit nombre | 1 |
+| float | Représente à nombre à virgule (un nombre flottant) | 4 |
+| double | Représente un nombre à virgule avec une *très* grande précision | 8 |
+| bool | Représente vrai (true) ou faux (false) | 1 |
+
+Si vous êtes un peu curieux, vous vous êtes peut être posé la question jusque combien peut grandir un ```long```, un ```int```, un ```short``` ou les autres types. Avant de vous donner les limites pratique de ces différents nombre, je dois vous parler de la signature des variables.
+
+##### Les signatures
+
+Toutes les variables ne peuvent pas être signés, non. Seul les nombres peuvent être signés.
+
+Un nombre **signé** est un nombre qui peut être négatif. Un nombre **non signé** peut uniquement être positif. Ainsi, pour un nombre non signé, il peut atteindre ```2^n - 1``` où ```n``` est le nombre de bits.
+
+Prenons l'exemple du nombre entier ```int```. Celui-ci a ```4``` octets, ce qui fait ```4 * 8 = 32``` bits (un octet = 8 bits). Ainsi, un ```int``` non signé peut aller jusque ```2^32 - 1 = 4'294'967'295``` ! Cela fait beaucoup tout de même !
+
