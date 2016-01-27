@@ -129,7 +129,7 @@ de ces types :
     char lettre = 'c';
     bool condition = true;
     
-    std::cout << flottant << endl << lettre << endl << condition << endl;
+    cout << flottant << endl << lettre << endl << condition << endl;
 
 Ce qui affichera :
 
