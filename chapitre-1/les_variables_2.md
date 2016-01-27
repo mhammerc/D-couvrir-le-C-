@@ -114,3 +114,11 @@ Rien de compliqué, il suffit de couper la poire en deux, et d'en mettre une moi
 | unsigned char |  0 jusque 255 | 1 |
 
 Comme vous le voyez nous atteignons de très gros nombre, au moins cela vous laisse la liberté de construire de grand nombre sans trop vous inquiéter des limites.
+
+Quand vous créez une variable, si vous ne précisez pas sa signature, elle est signée de base.
+
+Voici comment signer ou empêcher la signature d'une variable :
+
+    int a; // Nombre entier signé
+    signed a; // Nombre entier signé
+    unsigned a; // Nombre entier non signé
