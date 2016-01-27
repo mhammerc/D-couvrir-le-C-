@@ -19,7 +19,7 @@
            * [Les tableaux statiques C++11](chapitre-1/les_tableaux_statiques_c++11.md)
        * [Les tableaux dynamiques](chapitre-1/les_tableaux_dynamiques.md)
    * Encore plus sur les variables
-       * Les variables 2
+       * [Les variables 2](chapitre-1/les_variables_2.md)
        * Les références
        * Les pointeurs
        * Les pointeurs intelligents
