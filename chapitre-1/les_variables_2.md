@@ -16,21 +16,21 @@ Comme vous le savez, une variable est une information qui a une taille (en octet
 
 ##### Le SWAP
 
-Les utilisateurs de Linux connaissent d'avantage la notion de SWAP que les utilisateurs Windows. Mais, tous les systèmes modernes (Linux, Mac OS et Windows) connaissent et gère le SWAP à merveille.
+Les utilisateurs de Linux connaissent d'avantage la notion de SWAP que les utilisateurs Windows. Mais, tous les systèmes modernes (Linux, Mac OS et Windows) connaissent et gèrent le SWAP à merveille.
 
 Comment faire si votre ordinateur n'a plus de mémoire vive disponible ? Nous ne pouvons pas empêcher les nouvelles allocations mémoire, cela planterai le système. Nous ne pouvons pas libérer de mémoire, cela planterai aussi le système.
 
-Non, la seule solution est de trouver de l'espace supplémentaire. Et cet espace est le SWAP, réservé dans le disque dur de votre ordinateur. Si votre OS ressent le besoin de l'utilisé, il l'utilisera comme de la mémoire vive. Dans votre programme, cela ne fait aucun changement ! En pratique, cela réduira juste le temps de réaction de l'ordinateur (car l'accès au disque dur est plus long que l'accès à la RAM) et cela pourra aussi saturer le taux de lecture/écriture du disque dur.
+Non, la seule solution est de trouver de l'espace supplémentaire. Et cet espace est le SWAP, réservé dans le disque dur de votre ordinateur. Si votre OS ressent le besoin de l'utiliser, il l'utilisera comme de la mémoire vive. Dans votre programme, cela ne fait aucun changement ! En pratique, cela réduira juste le temps de réaction de l'ordinateur (car l'accès au disque dur est plus long que l'accès à la RAM) et cela pourra aussi saturer le taux de lecture/écriture du disque dur.
 
 ##### Le registre CPU
 
-C'est ici un domaine que je ne maîtrise que *très peu* vois même pas du tout. Mais sachez toujours que en interne votre CPU crée pleins de mini-variables intermédiaires et que ces variables sont stockés dans le registre CPU. Ces données ne restent pas plus de quelques millisecondes, le temps que le CPU l'utilise et les détruise.
+C'est ici un domaine que je ne maîtrise que *très peu* voir même pas du tout. Mais sachez toujours qu'en interne votre CPU crée pleins de mini-variables intermédiaires et que ces variables sont stockés dans le registre CPU. Ces données ne restent pas plus de quelques millisecondes, le temps que le CPU l'utilise et les détruise.
 
 Aussi, si dans votre code vous créez une variable que vous utilisez et supprimez juste après, alors, *peut-être* votre CPU l'enregistrera dans son registre. Tout dépend de votre CPU, de votre compilateur et de l'environnement d'exécution.
 
 ##### La durée de vie des variables
 
-Voici un sujet épineux. Ce sujet deviendra tabous lorsque nous commencerons les pointeurs !
+Voici un sujet épineux. Ce sujet deviendra tabous lorsque nous commencerons les *pointeurs* !
 
 Mais pour le moment, parlons du *scope* ou de la portée en français. Un scope se représente par une zone virtuelle dans votre code, généralement entre deux accolades ou imbriqués dans une instruction unique suite à une structure. Je m'explique :
 
@@ -66,7 +66,7 @@ Par contre, ```x``` est toujours utilisable après la condition, et est même ut
 
 C'est ce que nous appelons la portée des variables. **Dès que le programme sors de la portée d'une variable, alors cette variable est détruite.**
 
-Globalement, les différentes portées qui existent dans le C++, ce sont les fonctions, les conditions, et les boucles.
+Globalement, les différentes portées qui existent dans le C++, sont les fonctions, les conditions, et les boucles.
 
 #### Les limites des variables et leur signatures
 
@@ -123,6 +123,6 @@ Voici comment signer ou empêcher la signature d'une variable :
     signed a; // Nombre entier signé
     unsigned a; // Nombre entier non signé
     
-> **Warning** Si jamais une de vos variables dépasse l'une de ses limites, se produit alors ce que nous appelons un *overflow*. Cela ne va pas faire planter votre logiciel, votre nombre va simplement reprendre continuer d'évoluer en repartant du début ! Par exemple, si vous avez un ```signed char``` qui vaut ```127``` et que vous lui ajoutez ```1```, alors il vaudra ```-127```.
+> **Warning** Si jamais une de vos variables dépasse l'une de ses limites, se produit alors ce que nous appelons un *overflow*. Cela ne va pas faire planter votre logiciel, votre nombre va simplement continuer d'évoluer en repartant du début ! Par exemple, si vous avez un ```signed char``` qui vaut ```127``` et que vous lui ajoutez ```1```, alors il vaudra ```-127```.
 
 Bon, c'est vrai. J'avoue. Il y avait beaucoup de technique dans ce chapitre ! J'espère que vous êtes toujours avec moi car nous allons maintenant parler d'adresse mémoires et de références ! Allons-y !
