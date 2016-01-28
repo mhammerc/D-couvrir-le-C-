@@ -12,21 +12,21 @@ forgeron !
 ## Ce livre est en cours d'écriture
 
 Première chose très importante, ce livre est en cours d'écriture. J'ai commencé
-ce livre le 19 Juillet 2015 et je le met à jour aussi régulièrement que possible.
+ce livre le 19 Juillet 2015 et je le met à jours aussi régulièrement que possible.
 
 ## Pour qui est destiné ce livre ?
 
 Ce livre est écrit dans un français très simple et est à la portée de tous.
-Les seuls pré-requis pour ce livre sont de savoir utiliser un ordinateur de
+Le seul pré-requis pour ce livre est de savoir utiliser un ordinateur de
 manière aisée.
 
 > **Note** Si un problème indépendant au livre intervient lors de votre apprentissage, n'hésitez surtout pas à *googliser* votre problème, peut être que vous trouverez la solution.
 
 Que vous n'ayez absolument aucune connaissance en programmation ou que vous
-connaissez déjà le C++, ce livre saura vous satisfaire dans le sens ou il vous
+connaissez déjà le C++, ce livre saura vous satisfaire dans le sens où il vous
 servira de cours complet ou d'aide mémoire.
 
-## Comment se déroule le livre ?
+## Comment ce compose le livre ?
 
 Nous allons commencer par les notions les plus simples et les plus basiques.
 Petit à petit le niveau montera et vous découvrirez la véritable puissance du
@@ -42,9 +42,9 @@ suite.
 
 J'ai volontairement écrit ce livre de manière très concise afin de ne pas vous
 ennuyer. Seul "bémol" à ce choix : vous devez donner plus du votre encore. Vous
-devez vraiment faire partie du livre et pas seulement être un spectateur. Les
+devrez vraiment faire parti du livre et pas seulement être un spectateur. Les
 exemples que je donne ne sont pas là que pour accompagner de manière secondaire
-les explications, les exemples font partie intégrante des explications et sont
+les explications, les exemples font partis intégrante des explications et sont
 même **plus importants** que les explications.
 
 ## Ce livre est *example driven*
@@ -78,9 +78,9 @@ livre)*
 ## Il faut savoir admettre
 
 Dès les premières minutes de lecture de ce livre nous allons travailler sur du
-code C++. Sachez le tout de suite, vous ne comprendrez pas tout tout de suite.
-Si je vous dit que nous verrons tel chose plus tard ou que tel chose sert à 
-tel autre chose, admettez le. Considérez le comme acquis et n'y faites plus
+code C++. Sachez-le tout de suite, vous ne comprendrez pas tout tout de suite.
+Si je vous dit que nous verrons telle chose plus tard ou que telle chose sert à 
+telle autre chose, admettez-le. Considérez-le comme acquis et n'y faites plus
 attention : nous reviendrons dessus plus tard.
 
 ## Une remarque ? Une question ? Un problème ?
