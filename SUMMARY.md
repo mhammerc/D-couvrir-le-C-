@@ -20,7 +20,7 @@
        * [Les tableaux dynamiques](chapitre-1/les_tableaux_dynamiques.md)
    * [Encore plus sur les variables](chapitre-1/encore_plus_sur_les_variables.md)
        * [Les variables 2](chapitre-1/les_variables_2.md)
-       * Les références
+       * [Les références](chapitre-1/2_12_2_les_references.md)
        * Les pointeurs
        * Les pointeurs intelligents
 
