@@ -19,4 +19,32 @@ Comme vous le voyez, pour obtenir l'adresse mémoire d'une variable il faut la p
 
 ![](2_12_2_basique.png)
 
+Vous vous rappelez quand je vous ai expliquer comment créer et utiliser des fonctions ? Nous allons étudier ça plus en détails.
 
+Prenez cet exemple :
+
+    int add(int a, int b)
+    {
+      return a + b;
+    }
+
+    int main()
+    {
+      int a = 9;
+      int b = 10;
+      int c = add(a, b);
+      
+      // ...
+    }
+    
+Dans cet exemple, nous utilisons une fonction qui ajoute deux nombre et retourne le résultat (c'est inutile certes, mais c'est pour l'exemple). Que ce passe t'il en interne ?
+
+* Le logiciel crée deux variables a et b et leur assignent une valeure.
+* Le logiciel crée la variable c.
+* Le logiciel copie les variables a et b dans deux nouvelles variables temporaire : a' et b'.
+* Le logiciel additionne a' et b' et le stocke dans une nouvelle variable temporaire c'.
+* Le logiciel supprime a' et b'.
+* Le logiciel assigne à c la valeur de c'.
+* Le logiciel supprime c'.
+
+Comme vous le voyez, le défaut est que le logiciel crée plusieurs variables inutiles ici. En effet, il crée des variables temporaire pour a et b, qui sont inutiles.
