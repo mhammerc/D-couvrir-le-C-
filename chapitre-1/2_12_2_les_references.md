@@ -101,3 +101,5 @@ Le résultat est :
 ![](2_12_2_fonction_ref.png)
 
 Donc prenez bien garde à l'utilisation que vous faites de vos variables. Si vous les passez par copie, surveillez bien que la variable n'est pas trop grosse (un ```int``` par exemple c'est bon, un petit ```string``` aussi, mais un gros ```string```, préférez le passer par référence). Si vous passez une variable par référence, faites très attention quand vous la modifier.
+
+Voilà, vous savez à peu près tout sur les références. Maintenant, entamons l'un des sujets les plus redoutés du C et du C++ ! Les pointeurs !
