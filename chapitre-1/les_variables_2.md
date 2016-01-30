@@ -135,7 +135,7 @@ Comment faire pour préciser qu'une variable est constante en C++ ? C'est très 
     
 Il suffit de préfixer le type par le terme ```const```.
 
-Cette fonctionnalité peut paraître inutile, mais que neni ! En effet, le compilateur pourra effectuer certaines optimisations quand il sait qu'une variable ne peut pas être modifiée. De plus cela vous aide dans votre code, si vous faites une erreur et que vous essayez de modifier une constante, alors votre compilateur pour préviendra et vous pourrez régler l'erreur.
+Cette fonctionnalité peut paraître inutile, mais que nenni ! En effet, le compilateur pourra effectuer certaines optimisations quand il sait qu'une variable ne peut pas être modifiée. De plus cela vous aide dans votre code, si vous faites une erreur et que vous essayez de modifier une constante, alors votre compilateur pour préviendra et vous pourrez régler l'erreur.
 
 Ainsi, la règle est simple : dès que vous stocker une valeur qui ne change *jamais*, vous *devez* la déclarer comme constante.
 
