@@ -25,7 +25,7 @@ D'autres manipulations avec les références :
     int &ref = number; // ref est une référence
     cout << "Number vaut " << ref << endl;
     
-En fait, il faut vous imaginer que une référence en C++ est un autre accès à une variable. En gros, il y a les variables maitres et les variables esclaves. Une variable normale (et non une référence) est maitre. Elle crée la donnée originale. Une référence est "esclave", elle représente juste un autre accès à la même donnée. C'est un alias en quelque sorte.
+En fait, il faut vous imaginer qu'une référence en C++ est un autre accès à une variable. En gros, il y a les variables maitres et les variables esclaves. Une variable normale (et non une référence) est maitre. Elle crée la donnée originale. Une référence est "esclave", elle représente juste un autre accès à la même donnée. C'est un alias en quelque sorte.
 
 Vous vous rappelez quand je vous ai expliquer comment créer et utiliser des fonctions ? Nous allons étudier ça plus en détails.
 
