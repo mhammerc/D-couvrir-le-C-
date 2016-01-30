@@ -125,4 +125,18 @@ Voici comment signer ou empêcher la signature d'une variable :
     
 > **Warning** Si jamais une de vos variables dépasse l'une de ses limites, se produit alors ce que nous appelons un *overflow*. Cela ne va pas faire planter votre logiciel, votre nombre va simplement continuer d'évoluer en repartant du début ! Par exemple, si vous avez un ```signed char``` qui vaut ```127``` et que vous lui ajoutez ```1```, alors il vaudra ```-127```.
 
+#### Les variables constantes
+
+Vous êtes en train de créer un programme mathématique. Votre programme stocke la valeur de Pi. Vous le savez, Pi est une constante, nous ne devons donc pas la changer.
+
+Comment faire pour préciser qu'une variable est constante en C++ ? C'est très simple, regardez :
+
+    const float Pi = 3.14;
+    
+Il suffit de préfixer le type par le terme ```const```.
+
+Cette fonctionnalité peut paraître inutile, mais que neni ! En effet, le compilateur pourra effectuer certaines optimisations quand il sait qu'une variable ne peut pas être modifiée. De plus cela vous aide dans votre code, si vous faites une erreur et que vous essayez de modifier une constante, alors votre compilateur pour préviendra et vous pourrez régler l'erreur.
+
+Ainsi, la règle est simple : dès que vous stocker une valeur qui ne change *jamais*, vous *devez* la déclarer comme constante.
+
 Bon, c'est vrai. J'avoue. Il y avait beaucoup de technique dans ce chapitre ! J'espère que vous êtes toujours avec moi car nous allons maintenant parler d'adresse mémoires et de références ! Allons-y !
