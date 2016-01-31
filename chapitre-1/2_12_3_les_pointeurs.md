@@ -134,3 +134,14 @@ Si un jour vous aimeriez que votre pointeur pointe sur une variable normale, vou
 
 Il peut être très utile d'utiliser les pointeurs avec des fonctions. En effet, en somme, un pointeur n'est qu'un nombre donc très rapide à copier. Beaucoup plus rapide que copier une grosse variable ! Donc n'hésitez pas à passer des pointeurs dans les fonctions.
 
+    int add(int * a, int * b)
+    {
+        return *a + *b;
+    }
+    
+    int main()
+    {
+      int *a = new int(9);
+      int *b = new int(12);
+      
+      int c = add(a, b);
