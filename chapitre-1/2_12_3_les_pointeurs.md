@@ -6,7 +6,7 @@ Beaucoup prennent peur et s'enfuit lâchement à la vu des pointeurs. Mais, la v
 
 #### Le principe
 
-On pourrais confondre les pointeurs avec les références. En effet, ils permettent tous les deux d'accéder à une donnée qu'il ne possèdent pas.
+On pourrais confondre les pointeurs avec les références. En effet, ils permettent tous les deux d'accéder à une donnée qu'ils ne possèdent pas.
 
 Mais, leur fonctionnement est complètement différent. Avec les variables normales et les références, nous ne contrôlons pas nous même la mémoire. En effet, vous créez une variable normale et votre logiciel alloue une zone de la mémoire automatiquement pour vous. Si votre variable est détruite, alors la zone de la mémoire allouée l'est aussi instantanément.
 
