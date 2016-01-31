@@ -112,7 +112,7 @@ Voici l'analyse en détail instruction par instruction.
 * Nous affichons la valeur du pointeur en lui même (valeur identique à l'adresse mémoire du nombre comme vous pouvez le voir).
 * Nous affichons l'adresse du pointeur en lui même.
 * Nous supprimons le nombre et remettons le pointeur à zéro.
-* Nous ne pouvons plus afficher la valeur pointée ni l'adresse de la valeur pointée car celle-ci n'existe plus. Laisser ces deux lignes commentées résultera en un plantage de votre application.
+* Nous ne pouvons plus afficher la valeur pointée ni l'adresse de la valeur pointée car celle-ci n'existe plus. Si vous essayez d'exécuter ces deux lignes, alors votre application plantera.
 * Nous affichons la valeur du pointeur en lui même (qui vaut donc ```0```, c'est à dire ```nullptr```).
 * Et enfin nous affichons l'adresse du pointeur qui n'a pas changé.
 
