@@ -72,7 +72,7 @@ Ainsi, voici un exemple en pratique (cf. le code au dessus)
 
     int *ptr = new int(9);
     
-> **Danger** Attention ! Si vous initialisez un pointeur l'assigner (donc sans lui donner de valeur), vous faites erreur. Vous devez **toujours** assigner une valeur à votre pointeur. En effet, le pointeur risque de pointer sur une variable aléatoire sur votre ordinateur, et vous pourriez alors créer des instabilités sur votre système. Ainsi, si vous créez un pointeur que vous voulez laisser vide, faites comme suit : ```int *ptr = nullptr```. La constante ```nullptr``` provient du C++11 et est essentielle.
+> **Danger** Attention ! Si vous initialisez un pointeur sans l'assigner (donc sans lui donner de valeur), vous faites erreur. Vous devez **toujours** assigner une valeur à votre pointeur. En effet, le pointeur risque de pointer sur une variable aléatoire sur votre ordinateur, et vous pourriez alors créer des instabilités sur votre système. Ainsi, si vous créez un pointeur que vous voulez laisser vide, faites comme suit : ```int *ptr = nullptr```. La constante ```nullptr``` provient du C++11 et est essentielle.
     
 ##### L'utilisation des pointeurs
 
@@ -90,4 +90,13 @@ Alors, ```value``` vaudra ```9```. Par contre, si vous enlevez l'étoile, vous a
     int *ptr = new int(9);
     cout << *ptr << endl; // Affichera 9
     cout << ptr << endl; // Affichera l'adresse mémoire de la valeur pointée
+    
+C'est tout ! Et oui c'est aussi simple !
+
+##### La suppression de la mémoire allouée
+
+Si vous allouez de la mémoire dynamiquement avec l'opérateur ```new```, celle-ci ne sera jamais libéré autrement que par vous même. Vous **devez** donc la libérer aussi tôt que vous ne l'utilisez plus. Pour ce faire, utiliser l'opérateur ```delete```. Il suffit de donner à cet opérateur une adresse mémoire, et il va libérer la mémoire.
+
+    int *ptr = new int(9); // Allocation de la mémoire
+    delete ptr; // Libération de la mémoire
     
