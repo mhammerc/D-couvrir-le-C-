@@ -4,9 +4,7 @@ Autant en C que en C++, les pointeurs sont... mythiques.
 
 Beaucoup prennent peur et s'enfuit lâchement à la vu des pointeurs. Mais, la vérité sur les pointeur c'est qu'il faut bien les comprendre. Une fois assimilé et compris, vous verrez c'est ultra-simple.
 
-#### Les allocations mémoires
-
-##### Le principe
+#### Le principe
 
 On pourrais confondre les pointeurs avec les références. En effet, ils permettent tous les deux d'accéder à une donnée qu'il ne possèdent pas.
 
