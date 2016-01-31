@@ -72,6 +72,8 @@ Ainsi, voici un exemple en pratique (cf. le code au dessus)
 
     int *ptr = new int(9);
     
+> **Danger** Attention ! Si vous initialisez un pointeur l'assigner (donc sans lui donner de valeur), vous faites erreur. Vous devez **toujours** assigner une valeur à votre pointeur. En effet, le pointeur risque de pointer sur une variable aléatoire sur votre ordinateur, et vous pourriez alors créer des instabilités sur votre système. Ainsi, si vous créez un pointeur que vous voulez laisser vide, faites comme suit : ```int *ptr = nullptr```. La constante ```nullptr``` provient du C++11 et est essentielle.
+    
 ##### L'utilisation des pointeurs
 
 Maintenant que nous avons notre pointeur, comment pouvons nous l'utiliser ? Rien de plus simple.
