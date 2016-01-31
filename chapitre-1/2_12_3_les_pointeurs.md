@@ -100,3 +100,30 @@ Si vous allouez de la mémoire dynamiquement avec l'opérateur ```new```, celle-
     int *ptr = new int(9); // Allocation de la mémoire
     delete ptr; // Libération de la mémoire
     
+#### Analysons l'exemple
+
+Pour rappel, je vous redonne l'exemple :
+
+![](2_12_3_les_ptr.png)
+
+Voici l'analyse en détail instruction par instruction.
+
+* Nous allouons un ```int```, nous lui assignons la valeur ```9``` et nous créons et assignons un pointeur sur cette même mémoire.
+* Nous affichons la valeur du nombre grâce à l'opérateur ```*```.
+* Nous affichons l'adresse mémoire du nombre en pointant dessus puis en demandant son adresse (voir chapitre précédent) grâce aux deux opérateurs ```*&```.
+* Nous affichons la valeur du pointeur en lui même (valeur identique à l'adresse mémoire du nombre comme vous pouvez le voir).
+* Nous affichons l'adresse du pointeur en lui même.
+* Nous supprimons le nombre et remettons le pointeur à zéro.
+* Nous ne pouvons plus afficher la valeur pointée ni l'adresse de la valeur pointée car celle-ci n'existe plus. Laisser ces deux lignes commentées résultera en un plantage de votre application.
+* Nous affichons la valeur du pointeur en lui même (qui vaut donc ```0```, c'est à dire ```nullptr```).
+* Et enfin nous affichons l'adresse du pointeur qui n'a pas changé.
+
+Si vous avez bien suivi, vous devriez désormais être capable de comprendre et d'utiliser cet exemple. Voici maintenant des petites astuces d'utilisations.
+
+#### Lier un pointeur à une variable classique
+
+Si un jour vous aimeriez que votre pointeur pointe sur une variable normale, vous devrez utiliser l'opérateur ```&```, qui pour rappel permet d'obtenir l'adresse mémoire d'une variable.
+
+    int x = 10;
+    int *ptr = &x;
+    cout << *ptr << endl; // Affichera 10;
