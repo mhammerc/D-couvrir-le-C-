@@ -127,3 +127,7 @@ Si un jour vous aimeriez que votre pointeur pointe sur une variable normale, vou
     int x = 10;
     int *ptr = &x;
     cout << *ptr << endl; // Affichera 10;
+    
+#### Les pointeurs et les fonctions
+
+Il peut être très utile d'utiliser les pointeurs avec des fonctions. En effet, en somme, un pointeur n'est qu'un nombre donc très rapide à copier. Beaucoup plus rapide que copier une grosse variable ! Donc n'hésitez pas à passer des pointeurs
