@@ -172,4 +172,4 @@ Nous avons ici ```ptr```. C'est un nombre qui représente l'adresse mémoire d'u
     
 Cette instruction ne vas pas détruire ```ptr```. Elle va détruire ```*ptr```, c'est à dire la variable que pointe ```ptr```.
 
-Vous allez peut être me détester, mais après cette grosse leçon je vais vous informer que... vous ne 
+Vous allez peut être me détester, mais après cette grosse leçon je vais vous informer que... j'ai mieux que les pointeurs ! Les *pointeurs intelligents*.
