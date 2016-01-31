@@ -42,11 +42,11 @@ Voici un code d'exemple ainsi que son résultat.
 
 ![](2_12_3_les_ptr.png)
 
-Il est très important de comprendre à la perfection ce que vous voyez ici. Premièrement, concentrons nous sur le code.
+Il est très important de comprendre à la perfection ce que vous voyez ici.
 
 ##### La création des pointeurs
 
-Maintenant, il est temps pour vous d'apprendre à utiliser les pointeurs. Voici comment créer un pointeur :
+Il est maintenant temps pour vous d'apprendre à utiliser les pointeurs. Voici comment créer un pointeur :
 
     TYPE * NAME;
     
