@@ -83,4 +83,9 @@ Regardez plutôt :
     int *ptr = new int(9);
     int value = *ptr;
     
-Alors, ```value``` vaudra ```9```. Par contre
+Alors, ```value``` vaudra ```9```. Par contre, si vous enlevez l'étoile, vous accéderez à l'adresse mémoire de la valeur pointée. Par exemple :
+
+    int *ptr = new int(9);
+    cout << *ptr << endl; // Affichera 9
+    cout << ptr << endl; // Affichera l'adresse mémoire de la valeur pointée
+    
