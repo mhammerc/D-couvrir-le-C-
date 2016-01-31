@@ -100,7 +100,7 @@ Si vous allouez de la mémoire dynamiquement avec l'opérateur ```new```, celle-
     
 #### Analysons l'exemple
 
-Pour rappel, je vous redonne l'exemple :
+Je vous redonne l'exemple :
 
 ![](2_12_3_les_ptr.png)
 
