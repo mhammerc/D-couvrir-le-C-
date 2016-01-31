@@ -58,7 +58,7 @@ Voici comment allouer de la mémoire :
 
     new TYPE;
     
-Cela s'appelle l'allocation dynamique. L'opérateur ```new``` va donc allouer dans votre mémoire une zone pour le type ```TYPE``` que vous avez demandé. Et, cette instruction retourne l'adresse mémoire de l'allocation fraîchement effectuée. Or, comme vous le savez, un pointeur sauvegarde les adresses mémoires. Alors fusionnons les !
+Cela s'appelle **l'allocation dynamique**. L'opérateur ```new``` va donc allouer dans votre mémoire une zone pour le type ```TYPE``` que vous avez demandé. Et, cette instruction retourne l'adresse mémoire de l'allocation fraîchement effectuée. Or, comme vous le savez, un pointeur sauvegarde les adresses mémoires. Alors fusionnons les !
 
     TYPE * NAME = new TYPE;
     
