@@ -134,7 +134,7 @@ Il peut être très utile d'utiliser les pointeurs avec des fonctions. En effet,
 
     int add(int * a, int * b)
     {
-        return *a + *b;
+      return *a + *b;
     }
     
     int main()
