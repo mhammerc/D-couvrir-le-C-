@@ -22,12 +22,46 @@ En pratique un pointeur est une variable à part entière. Plus en détail, c'es
 
 Je m'explique. Comme nous l'avons vu dans le chapitre précédent, toute donnée dans la mémoire vive a une adresse qui lui est propre. Un pointeur enregistre donc cette adresse pour que vous puissiez y accéder. Il **pointe** donc sur la donnée.
 
-Regardez plus tôt :
+Voici un code d'exemple ainsi que son résultat.
+
+    int *ptr = new int(9);
+
+    cout << "Valeur de la valeur pointee : " << *ptr << endl;
+    cout << "Adresse de la valeur pointee : " << *&ptr << endl << endl;
+    cout << "Valeur du pointeur : " << ptr << endl;
+    cout << "Adresse du pointeur : " << &ptr << endl << endl;
+
+    cout << "Suppression de la valeur pointee..." << endl << endl;
+    delete ptr;
+    ptr = nullptr;
+
+    //cout << "Valeur de la valeur pointee : " << *ptr << endl;
+    //cout << "Adresse de la valeur pointee : " << *&ptr << endl << endl;
+    cout << "Valeur du pointeur : " << ptr << endl;
+    cout << "Adresse du pointeur : " << &ptr << endl;
+
+   cin.ignore();
 
 ![](2_12_3_les_ptr.png)
 
 Il est très important de comprendre à la perfection ce que vous voyez ici. Premièrement, concentrons nous sur le code.
 
-##### L'opérateur ```new``` et ```delete```
+##### L'utilisation des pointeurs
+
+Maintenant, il est temps pour vous d'apprendre à utiliser les pointeurs. Voici comment créer un pointeur :
+
+    TYPE * NAME;
+    
+En C++, le symbole caractéristique du pointeur est une ```*```. A chaque fois que vous verrez une étoile en C++, c'est qu'un pointeur n'est pas très loin. Comme vous le savez, le pointeur est un *nombre* qui pointe sur une donnée. Donc comme toujours en C++, nous devons donner un type à cette donnée.
 
 Vous savez que les pointeurs permettent de gérer manuellement la mémoire. En fait c'est *faux*. Ce ne sont pas les pointeurs qui permettent de gérer la mémoire mais les opérateurs ```new``` et ```delete```. Comme leur nom l'indique, ```new``` permet de d'allouer de la mémoire alors que ```delete``` permet de la récupérer.
+
+Voici comment allouer de la mémoire : 
+
+    new TYPE;
+    
+Cela s'appelle l'allocation dynamique. L'opérateur ```new``` va donc allouer dans votre mémoire une zone pour le type ```TYPE``` que vous avez demandé. Et, cette instruction retourne l'adresse mémoire de l'allocation fraîchement effectuée. Or, comme vous le savez, un pointeur sauvegarde les adresses mémoires. Alors fusionnons les !
+
+    TYPE * NAME = new TYPE;
+    
+Cette instruction va simplement allouer une zone mémoire du type ```TYPE```, et il 
