@@ -145,3 +145,31 @@ Il peut être très utile d'utiliser les pointeurs avec des fonctions. En effet,
       int *b = new int(12);
       
       int c = add(a, b);
+      
+      delete a;
+      a = nullptr;
+      delete b;
+      b = nullptr;
+    }
+    
+#### Le pourquoi du comment !
+
+Je vais vous fournir une petite dernière explication pour ceux qui n'auraient pas encore très bien compris.
+
+Voici une variable classique :
+
+    int x = 0;
+    
+Ici, ```x``` représente la variable en elle même. ```x``` **est** la mémoire. Ainsi, si ```x``` est détruit, alors la mémoire est libéré.
+
+Voici un pointeur :
+
+    int *ptr = new int(0);
+    
+Nous avons ici ```ptr```. C'est un nombre qui représente l'adresse mémoire d'une autre variable (un nombre aussi ici). Si ```ptr``` est détruit, le nombre qui représente l'adresse mémoire du second est aussi supprimé, mais pas le second nombre.
+
+    delete ptr;
+    
+Cette instruction ne vas pas détruire ```ptr```. Elle va détruire ```*ptr```, c'est à dire la variable que pointe ```ptr```.
+
+Vous allez peut être me détester, mais après cette grosse leçon je vais vous informer que... vous ne 
