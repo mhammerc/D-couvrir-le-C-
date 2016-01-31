@@ -64,4 +64,6 @@ Cela s'appelle l'allocation dynamique. L'opérateur ```new``` va donc allouer da
 
     TYPE * NAME = new TYPE;
     
-Cette instruction va simplement allouer une zone mémoire du type ```TYPE```, et il assignera alors au pointeur ```NAME``` l'adresse de cette mémoire pour que vous puissiez l'utiliser.
+Cette instruction va simplement allouer une zone mémoire du type ```TYPE```, et il assignera alors au pointeur ```NAME``` l'adresse de cette mémoire pour que vous puissiez l'utiliser. Si vous souhaitez, vous pouvez aussi assigner directement une valeur après l'initialisation :
+
+    TYPE * NAME = new TYPE(VALUE);
