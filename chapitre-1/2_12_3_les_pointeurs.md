@@ -128,6 +128,9 @@ Si un jour vous aimeriez que votre pointeur pointe sur une variable normale, vou
     int *ptr = &x;
     cout << *ptr << endl; // Affichera 10;
     
+> **Hint** Notez que vous devez utiliser ```delete``` que si la mémoire a été créé par l'opérateur ```new```. Ici, vous n'avez pas besoin de libérer la mémoire par vous même car le propriétaire de la mémoire est une variable classique : quand elle sera détruite, la mémoire le sera aussi.
+    
 #### Les pointeurs et les fonctions
 
-Il peut être très utile d'utiliser les pointeurs avec des fonctions. En effet, en somme, un pointeur n'est qu'un nombre donc très rapide à copier. Beaucoup plus rapide que copier une grosse variable ! Donc n'hésitez pas à passer des pointeurs
+Il peut être très utile d'utiliser les pointeurs avec des fonctions. En effet, en somme, un pointeur n'est qu'un nombre donc très rapide à copier. Beaucoup plus rapide que copier une grosse variable ! Donc n'hésitez pas à passer des pointeurs dans les fonctions.
+
