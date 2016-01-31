@@ -40,13 +40,13 @@ Voici un code d'exemple ainsi que son résultat.
     cout << "Valeur du pointeur : " << ptr << endl;
     cout << "Adresse du pointeur : " << &ptr << endl;
 
-   cin.ignore();
+    cin.ignore();
 
 ![](2_12_3_les_ptr.png)
 
 Il est très important de comprendre à la perfection ce que vous voyez ici. Premièrement, concentrons nous sur le code.
 
-##### L'utilisation des pointeurs
+##### La création des pointeurs
 
 Maintenant, il est temps pour vous d'apprendre à utiliser les pointeurs. Voici comment créer un pointeur :
 
@@ -67,3 +67,20 @@ Cela s'appelle l'allocation dynamique. L'opérateur ```new``` va donc allouer da
 Cette instruction va simplement allouer une zone mémoire du type ```TYPE```, et il assignera alors au pointeur ```NAME``` l'adresse de cette mémoire pour que vous puissiez l'utiliser. Si vous souhaitez, vous pouvez aussi assigner directement une valeur après l'initialisation :
 
     TYPE * NAME = new TYPE(VALUE);
+    
+Ainsi, voici un exemple en pratique (cf. le code au dessus)
+
+    int *ptr = new int(9);
+    
+##### L'utilisation des pointeurs
+
+Maintenant que nous avons notre pointeur, comment pouvons nous l'utiliser ? Rien de plus simple.
+
+Pour accéder à la valeur que le pointeur pointe, utilisez l'opérateur ```*``` (oui encore).
+
+Regardez plutôt :
+
+    int *ptr = new int(9);
+    int value = *ptr;
+    
+Alors, ```value``` vaudra ```9```. Par contre
