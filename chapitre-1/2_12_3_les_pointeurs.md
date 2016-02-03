@@ -2,7 +2,7 @@
 
 Autant en C que en C++, les pointeurs sont... mythiques.
 
-Beaucoup prennent peur et s'enfuit lâchement à la vu des pointeurs. Mais, la vérité sur les pointeur c'est qu'il faut bien les comprendre. Une fois assimilé et compris, vous verrez c'est ultra-simple.
+Beaucoup prennent peur et s'enfuient lâchement à la vu des pointeurs. Mais, la vérité sur les pointeur c'est qu'il faut bien les comprendre. Une fois assimilés et compris, vous verrez c'est ultra-simple.
 
 #### Le principe
 
