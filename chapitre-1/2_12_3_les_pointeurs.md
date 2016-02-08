@@ -10,7 +10,7 @@ On pourrais confondre les pointeurs avec les références. En effet, ils permett
 
 Mais, leur fonctionnement est complètement différent. Avec les variables normales et les références, nous ne contrôlons pas nous même la mémoire. En effet, vous créez une variable normale et votre logiciel alloue une zone de la mémoire automatiquement pour vous. Si votre variable est détruite, alors la zone de la mémoire allouée l'est aussi instantanément.
 
-Avec les pointeurs vous contrôlez vous même la mémoire. Et toute la difficulté est là ! Si vous allouez de la mémoire mais que vous oubliez de la libérer, vous aurez alors une fuite de mémoire.
+Avec les pointeurs vous contrôlez vous même la mémoire. Et toute la difficulté est là ! Vous devez allouer et libérer la méoire vous même, manuellement. Si vous allouez de la mémoire mais que vous oubliez de la libérer, vous aurez alors une fuite de mémoire.
 
 Les fuites de mémoires sont mortelles ! Imaginez un logiciel qui consomme 4 Gb de mémoire vive alors qu'en réalité il n'en utilise que 200 Mb. Pourquoi ? Parceque il a alloué de la mémoire mais a oublié de la libérer. Vous comprendrez mieux après.
 
