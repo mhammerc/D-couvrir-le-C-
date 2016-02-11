@@ -95,7 +95,7 @@ C'est tout ! Et oui c'est aussi simple !
 
 ##### La suppression de la mémoire allouée
 
-Si vous allouez de la mémoire dynamiquement avec l'opérateur ```new```, celle-ci ne sera jamais libéré autrement que par vous même. Vous **devez** donc la libérer dès qu'elle n'est plus nécessaire. Pour ce faire, utiliser l'opérateur ```delete```. Il suffit de donner à cet opérateur une adresse mémoire (ou un pointeur), et il va libérer la mémoire.
+Si vous allouez de la mémoire dynamiquement avec l'opérateur ```new```, celle-ci ne sera jamais libéré autrement que par vous même. Vous **devez** donc la libérer dès qu'elle n'est plus nécessaire. Pour ce faire, utiliser l'opérateur ```delete```. Il suffit de donner à cet opérateur une adresse mémoire (ou un pointeur), et il va libérer la mémoire associé.
 
     int *ptr = new int(9); // Allocation de la mémoire
     delete ptr; // Libération de la mémoire
