@@ -91,9 +91,11 @@ Alors, ```value``` vaudra ```9```. Par contre, si vous enlevez l'étoile, vous a
     
 C'est tout ! Et oui c'est aussi simple !
 
+> **Hint** L'opérateur étoile que nous appliquons alors aux données permet de suivre les adresses mémoires. Ainsi, si vous appliquez l'opérateur étoile sur un nombre qui représente l'adresse d'une variable, alors vous accéderez à la variable. L'opérateur étoile permet ainsi d'effectuer des lectures de la mémoire arbitraire.
+
 ##### La suppression de la mémoire allouée
 
-Si vous allouez de la mémoire dynamiquement avec l'opérateur ```new```, celle-ci ne sera jamais libéré autrement que par vous même. Vous **devez** donc la libérer aussi tôt que vous ne l'utilisez plus. Pour ce faire, utiliser l'opérateur ```delete```. Il suffit de donner à cet opérateur une adresse mémoire, et il va libérer la mémoire.
+Si vous allouez de la mémoire dynamiquement avec l'opérateur ```new```, celle-ci ne sera jamais libéré autrement que par vous même. Vous **devez** donc la libérer dès qu'elle n'est plus nécessaire. Pour ce faire, utiliser l'opérateur ```delete```. Il suffit de donner à cet opérateur une adresse mémoire (ou un pointeur), et il va libérer la mémoire.
 
     int *ptr = new int(9); // Allocation de la mémoire
     delete ptr; // Libération de la mémoire
