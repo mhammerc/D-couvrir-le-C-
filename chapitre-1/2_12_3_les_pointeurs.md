@@ -2,7 +2,7 @@
 
 Autant en C que en C++, les pointeurs sont... mythiques.
 
-Beaucoup prennent peur et s'enfuient lâchement à la vu des pointeurs. Mais, la vérité sur les pointeur c'est qu'il faut bien les comprendre. Une fois assimilés et compris, vous verrez c'est ultra-simple.
+Beaucoup prennent peur et s'enfuient lâchement à la vu des pointeurs. Mais, la vérité sur les pointeur c'est qu'il faut bien les comprendre. Une fois assimilés et compris, vous verrez, c'est ultra-simple.
 
 #### Le principe
 
@@ -10,15 +10,15 @@ On pourrais confondre les pointeurs avec les références. En effet, ils permett
 
 Mais, leur fonctionnement est complètement différent. Avec les variables normales et les références, nous ne contrôlons pas nous même la mémoire. En effet, vous créez une variable normale et votre logiciel alloue une zone de la mémoire automatiquement pour vous. Si votre variable est détruite, alors la zone de la mémoire allouée l'est aussi instantanément.
 
-Avec les pointeurs vous contrôlez vous même la mémoire. Et toute la difficulté est là ! Vous devez allouer et libérer la méoire vous même, manuellement. Si vous allouez de la mémoire mais que vous oubliez de la libérer, vous aurez alors une fuite de mémoire.
+Avec les pointeurs vous contrôlez vous même la mémoire. Et toute la difficulté est là ! Vous devez allouer et libérer la mémoire vous même, manuellement. Si vous allouez de la mémoire mais que vous oubliez de la libérer, vous aurez alors une fuite de mémoire.
 
-Les fuites de mémoires sont mortelles ! Imaginez un logiciel qui consomme 4 Gb de mémoire vive alors qu'en réalité il n'en utilise que 200 Mb. Pourquoi ? Parceque il a alloué de la mémoire mais a oublié de la libérer. Vous comprendrez mieux après.
+Les fuites de mémoires sont mortelles ! Imaginez un logiciel qui consomme 4 Gb de mémoire vive alors qu'en réalité il n'en utilise que 200 Mb. Pourquoi ? Parce que il a alloué de la mémoire mais a oublié de la libérer. Vous comprendrez mieux après.
 
 #### La pratique
 
 En pratique un pointeur est une variable à part entière. Plus en détail, c'est un nombre. Et ce nombre représente une adresse mémoire.
 
-Je m'explique. Comme nous l'avons vu dans le chapitre précédent, toute donnée dans la mémoire vive a une adresse qui lui est propre. Un pointeur enregistre donc cette adresse pour que vous puissiez y accéder. Il **pointe** donc sur la donnée.
+Je m'explique. Comme nous l'avons vu dans le chapitre précédent, toute variable dans la mémoire vive a une adresse qui lui est propre. Nous allons donc créer une variable dans la mémoire sans lui attribuer d'accès direct (donc pas de variable la représentant directement) : une sorte de variable fantôme. Bien sur cette variable aura une adresse mémoire, vous le savez. Nous allons donc récupérer cette adresse et la donner à un pointeur. Et le rôle d'un pointeur est de sauvegarder cette adresse. Un pointeur est donc une sorte de nombre. Et nous pourrons accéder à la variable fantôme *via* le pointeur.
 
 Voici un code d'exemple ainsi que son résultat.
 
