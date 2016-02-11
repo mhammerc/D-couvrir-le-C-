@@ -160,16 +160,16 @@ Voici une variable classique :
 
     int x = 0;
     
-Ici, ```x``` représente la variable en elle même. ```x``` **est** la mémoire. Ainsi, si ```x``` est détruit, alors la mémoire est libéré.
+Ici, ```x``` représente la variable en elle même. ```x``` **est** la variable. Ainsi, si ```x``` est détruit, alors la mémoire est libéré.
 
 Voici un pointeur :
 
     int *ptr = new int(0);
     
-Nous avons ici ```ptr```. C'est un nombre qui représente l'adresse mémoire d'une autre variable (un nombre aussi ici). Si ```ptr``` est détruit, le nombre qui représente l'adresse mémoire du second est aussi supprimé, mais pas le second nombre.
+Nous avons ici ```ptr```. C'est un nombre qui représente l'adresse mémoire d'une autre variable (un nombre aussi ici). Si ```ptr``` est détruit, le nombre qui représente l'adresse mémoire de la variable pointée est aussi supprimé, mais pas la variable pointée en elle même.
 
     delete ptr;
     
-Cette instruction ne vas pas détruire ```ptr```. Elle va détruire ```*ptr```, c'est à dire la variable que pointe ```ptr```.
+Cette instruction ne vas pas détruire ```ptr```. Elle va détruire ```*ptr```, c'est à dire la variable que pointe ```ptr```. Ainsi, la variable pointée est détruite donc elle n'est plus accessible. N'oubliez pas de faire un ```ptr = nullptr``` dans ce cas, sinon ```ptr``` devient un pointeur invalide !
 
 Vous allez peut être me détester, mais après cette grosse leçon je vais vous informer que... j'ai mieux que les pointeurs ! Les *pointeurs intelligents*.
